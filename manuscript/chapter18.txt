@@ -1,0 +1,130 @@
+# Tammer Saleh: Teaching the Elephant to Dance
+
+Tammer Saleh: All right, thanks Paul. And in the interest of your sanity I am going to try to keep this as short as I can. So, again, my name is Tammer Saleh and my presentation for you today is “Teaching an Elephant to Dance”. It’s about how the company I work for, Pivotal, used agility to transform a product we inherited called Cloud Foundry. So, hope this remote works. First of all, everybody, please stand up. All right. Is everybody up? Ok, go and sit back down again. I actually don’t have a question for you. I just felt left out. Everybody else was getting you guys to stand up. So, thank you very much!
+
+So, first we’re going to talk about what Cloud Foundry is. We are going to talk about some of the accomplishment that we’ve, well, accomplished. We are going to talk about Pivotal as a company and its history, the challenges we faced, the solutions we’ve put into place. And then we are going to talk a little about Aagility and why it is important. 
+
+Again, my name is Tammer Saleh and I’ve been all over the place. I have a very wide amount of experience. I can, I self identify as a developer. I’ve been either in operations or engineering for the majority of my life. Now I find myself shackled. They no longer let me take code. I just tell people what to do. In the past I’ve written a book. I was VP of engineering, I was founder for a consulting company. Right now I’m in charge of part of the product for Cloud Foundry over in London. I’m also American so we brag a lot. 
+
+First of all, I think because of the venue and the people do not talk and also because it is Europe, some of you might not know what Cloud Foundry is. So, can I get a show of hands? How many people know what Cloud Foundry is? How many people know a platform as a service is? Ok, that’s good. At least a third of you.
+
+So, for those of you who don’t know what a platform as a service, basically, it’s a step up from what you think of an infrastructure in a cloud, so AWS, VSphere, OpenStack, Google compute Engine. Those are all infrastructures. Basically you ask for servers and I give you servers. But that was a lot of work on top of that to actually get your application deployed and available to your customers. So, our product, much like other ones like Heroku, Open Shift I think it’s called, our product is a platform. Basically it’s all the infrastructure and planning that you need so you can easily deploy your application as fast as possible. Ours in particular is open-source. It’s designed to work on all the different infrastructures. It’s designed for large installations. So, think enterprise installations and it comes packaged with a set of big data applications. So it’s pretty ambitious for a platform. But from my point of view as a developer, the reason I get excited about platforms as services is that it enables agility in a devops way. As a developer I no longer have to worry about throwing my coat over to the operation side of the team. They give me a tool where I can deploy my code as often or as soon as I want. That’s the key to agility.  
+
+Ok, let’s talk a bit about the accomplishments that Pivotal was able to achieve with the Cloud Foundry platform. A year ago we were in a really bad place. The Cloud Foundry team was basically stagnant. They were doing yearly production deployments of the platform, once  a year. They had no on premise product which was the main goal of the business, it was to make money from an on-premise product. They never shipped one. Everything was about architecture but they made no real progress on individual features. They didn’t have an engineering discipline and they had basically zero testing culture. So, of course, this is a successful story. 
+
+Where are we now? In a much better place. Now we do weekly production deployments which for my taste it’s a little bit slow but it’s still much better than over a year. We launched our own prem products in exactly the amount of time we expected to. We launch updates to that every quarter. There’s been a consistent increase in quality, a measurable one. We have a huge testing infrastructure. I’ll go into  little bit more, more importantly, in fact the most important thing is the engineers are happy again. They see progress, they feel like they’re accomplishing something. They’re in a well-oiled organization.
+
+So, let’s talk about some history. How many of you heard of Pivotal Labs? Raise your hands, please. Ok, that’s what I thought. It’s mostly an American company. We are going to talk about Pivotal Labs, the transition into Pivotal and talk about EMC and VM where and how they contributed in the meantime. 
+
+So, Pivotal Labs was founded in 1989 by a friend of mine, Rob Mee and his partner, Sherry. It was, you know, originally it was just Rob. It grew developer by developer until it hit about 200 people. He used to say “We’re not a machine that makes software, we’re a machine that makes software-making machines.” It’s an awkward quote, but it’s true. Pivotal has many offices and each one is designed around the same principles, almost cookie cutout and they’re effective almost immediately. We have offices, the main one is in San Francisco. We have Palo Alto, LA, Boulder, Denver, Chicago, Toronto, Boston, NYC, and the one that I work in which is, which is why is the biggest one on the screen, in London. 
+
+We have all the big name clients that you’d recognize. I switch that screen because I didn’t talk to the lawyers first. But probably if you know Pivotal Labs, you probably know them from Pivotal tracker, an Agile work-tracking tool for the developers. How many people have heard of Pivotal tracker? Ok. 
+
+So, again, it started as Pivotal Labs, a consulting company. In 2012, sorry, in 2012 they were bought by EMC. EMC at that time still owned a controlling stake in VMware. What EMC did was, they said “Ok. Pivotal Labs is doing a great job in one of our projects. We can’t let that escape. So at this point we are just going to buy them, consume them into our organization.” But they were smart enough to realize that if they did that, like any other acquisition, they would basically crush and turn everything good that’s about the culture that they’d acquired. So, instead they did something really smart. They, excuse the pun, they pivoted Pivotal Labs out. So now, Pivotal Labs or Pivotal which is the company they named it, is its own identity, still partially owned by EMC and VMware and it includes Pivotal Labs. And what they also did is they handed Pivotal all these other next generation kind of Agile technologies which included Cloud Foundry, but also things like Reddit, Green Plumb, sprints for those Java developers and Pivotal  HD. So, that’s the history of Pivotal and how we ended up inheriting this code base and a lot of the developing culture that comes along with it. So, of course, whenever you inherit something like that there is going to be a lot of big challenges to face.
+
+The most obvious challenge is the amount of technical debt that was sitting there in this code base that we inherited. This is one of my favorite photos. I don’t know where this is, but people actually live there, so it reminds me of most of the software that I’ve worked in.
+
+The other thing was, the culture was, well it was not healthy. There were a lot of cowboy coders. One of the things I love about this conference, especially this year is the motto of the conference “We don’t need another hero.” I feel that every day. Every day I feel like I inherited something. It was clearly written by one person at 3 a.m. with a bunch of gilt and now we have to fix it.
+
+We also inherited a culture of architects. Does everybody here know XKCD comics? Raise your hands if you know XKCD because it’s the best thing in the whole God damn world. Ok, great. If you don’t, look it up, so funny. This is my favorite comic about how to be an architect. Can you all read that? So, he’s asking for some salt, we waits a bit, he said “Where’s the salt?”. The other guy says “I’m devising a way of getting you any condiments in an arbitrary manner.”
+
+So, a culture of architects, people who want to big upfront design, people who want to make sure they’ve got it all right before they actually get anything out. And that’s a big problem with Cloud Foundry and I want to make it clear, though. I don’t want to blame the cowboys or the architects for this. They are just developers doing the best they can. They were told “This is the way you build software.” You can’t possibly start a project as big a platform as a service without knowing exactly what you were going to be building in the future. It’s bullshit, but it’s understandable. The problem is really with the management structure that was directing them, telling them “This is the way things have to be done.”
+
+Another challenge that we inherited is that all of this is open source and personally I find it very challenging to work with the open source community. They’re a wonderful thing but it’s a burden as well as a benefit. It’s difficult to get the same level of quality out of, again, individual developers working all over the world. So we had to devise a system for including the open source community. And then, of course, in general, we inherited remote developers in various different countries and so getting them to drink the cool aid, getting them to understand the Pivotal way was very difficult. 
+
+So, now that I’ve talked about the challenges, let’s talk about some of the solutions. So, I think the biggest take away is that Agile practices are often fractal, they are often recursive, self- referential. So, for example, let’s talk about pairing. How many people here have participated in pairing? How many people know what pairing is? Ok. I kind of expected more, honestly. Pair programming is when you have two developers sitting at the same computer, 2 developers working on the same problem with one computer. It sounds silly. You actually get more than 200% productivity and the developers are happier. The reason that it works is that, there are many reasons, but basically the cracks of it is that writing software is not part-part, debugging software is the hard part. That’s where you spend your weeks. It’s, I wrote it once,, that it took me day, I spent the next 5 days trying to find that one bug that was from a typo way back when. When you have 2 developers sitting at the same computer, the bug rate drops tremendously.
+
+But, it’s also about knowledge share. So, you don’t just have one pair of developer sitting together all the time. You are constantly rotating developers. So, every morning during the stand-up the developers decide who’s going to be switching in which pair. Now you have teams of these pairs, again, we don’t want to keep knowledge silo in each one of these teams so on a regular basis we rotate the developers in each team to make sure that the developers are in a run time team, understand what’s going in the operation team of in the front end team. You want this knowledge transfer to happen all over the company. But, this is just one office. So, great, we have knowledge transfer in one office. But again often Agile is fractal, recursive, self-referential. The same pattern can often be exploited into larger and larger arenas so we rotate developers between different offices, between Los Angeles and London, New York and San Francisco. Again it’s all about that recursive nature. So, when you’re looking at a problem like this, you don’t always have to have a new idea how to do Agile. You don’t have to come up with a whole new framework. You can just apply the same ideas at a bigger scale and it works.  
+
+Similarly, you don’t need the entire company bought in at once. All you need is any representation from any level of the company. You need someone to advocate it at a leadership level, at the product and engineering sites. Once you do that, you plant these seeds of converts and they become evangelists. And again, things like pairing build this up so you get developers at every level and product people at every level and people in the leadership team saying “No, no, you, guys. This really works. We’re not telling you have to do it, yet. But we’re playing with it and you’ll see that we are getting results.” Similarly once you’ve planted those seeds that are evangelists you want to nurture this, promote them from within so eventually they become leadership. One of the things that I love so much about Pivotal, especially when is Pivotal Labs, is every pivot, which is what we call Pivotal employees. Every pivot was at one point a developer, you know, the founder was an engineer. He worked on client projects before he built the company up. Even the office manager and the lawyer, which I thought iwas hilarious, I met the lawyer and we were shaking hands and he seemed a little odd, or whatever. And he talked to someone else and he’s like “Oh, I paired with him a long time ago. “ So everybody comes from the same ground of understanding why Agile is important from , I guess we like to say it’s in their blood.
+
+ Another important aspect is the strong boundaries between products and engineering. I think this is one of the things that makes the office I work in so incredibly healthy. Most engineering organizations I’ve been to either the product side of the house has no teeth, right? How many are product people? PM’s or project managers? Ok, often you find yourself unempowered. You know the right thing to do, but the developers just aren’t listening. They are off doing whatever features they want to work on, whatever bug they think it’s important. And that’s unhealthy. 
+
+On the other side of the spectrum, though, in the places the developers feel as though they have no power, they’re told by their product people “You’ve got to get this done. You have to get this done now.”Here’s a deadline, what can you ship? Right? Clearly I think everybody in this room understands how unhealthy that is. Pivotal is one of the few places where they figure out the lines, the boundaries, the lines of demarcation so well that neither side of the house feels superior or feels that they’re under the heel. It create this culture of respect. It empowers the PM’s but we’re not allowed to say how things get done or when. We say what order but we don’t say how long each feature can take. The developers tell us that and they get to focus on their craft and they get to focus on just writing good software. 
+
+The real challenge though is the old guard, how do we convert them? Well, the key is understanding that developers want to work in successful teams of smart people so if you are executing on this correctly, they start to see results, right? You pair program with them , you put them in small teams with constant rotation so that they see a lot of different things going on. You give them autonomy so that they can decide how their software gets built and you show them measure results. It makes them happy. Now, it makes most of them happy.
+
+Sometimes those big, upfront architects, those cowboys, sometimes they join the organization because that’s what they want to do. And, you know, they would just be happier somewhere else. It’s ok to draw a hard line especially in a situation like this. It’s ok to lose developers if they are going to be happier somewhere else. You want to keep the ones who are going to enjoy your culture because they are going to become those advocates.
+
+One thing that I think it’s really important to understand is that Agile isn’t just about process, right? We are going to lose track off that when we care so much about the process. It’s about results. And we take small steps so we can change direction quickly. That’s the key of Agile, right? We test drive our codes so we can faster in the future. We don’t architect a future proof so we don’t create more than we need, that’s waste. Sorry , we don’t work nights or weekends so we can perform in our intellectual peaks. We don’t get exhausted. We believe in sustainable culture. We pair programmers who make fewer mistakes so we don’t waste time and so we can teach our peers. Again Agile isn’t about process. You have to understand the problem before you try to come up with a solution. 
+
+Real quick I am going to show you a video that these guys made. This is recruiting video, but I’m showing it more because is the best taste of what it’s like to work in the office every day. I worked with these people, some of them I paired with, doing code and they have this exact attitude all the time. I’m pretty sure they just hired a film crew to come in and sit and just talk. And they talked and they edited it and made it this, real fast. 
+
+Man 1: I am pivot. 
+
+Woman: I am pivot.
+
+Man 2: I am pivot.
+
+Man 3: I am pivot.
+
+People: We are pivots. 
+
+Man 4: We are together all day to solve problems.
+
+Man 5: We interrupt each other, a lot mostly. 
+
+Man 4: No, we are not. 
+
+Woman: We are in the business of writing code that will last.
+
+Man 2: We engineers have a lot to say in what happens with the products. 
+
+Man 3: We don’t introduce a lot of bugs along the way. 
+
+Woman: That’s more about up here, than like down here. 
+
+Man 6: Pair programming is all about exchange of ideas.
+
+Woman: like having 2 minds for one problem.
+
+Man 6: 2 keyboards, 2 mice and constant discussions. 
+
+Man 4: It’s actually fun to make software with another person. 
+
+Man 2 :Couldn’t imagine not pairing. 
+
+Man 3:We get to learn and the clients get to benefit.
+
+Man 6: Every day is a flood of social interaction and learning from fellow pivots. 
+
+Man 5: I’m learning so much every day. 
+
+Man 3: It’s really collaborative. 
+
+Man 4: He makes a big deal about at the office. 
+
+Man 1: We are in this world that headshots with 5 points. 
+
+Woman: We have cater breakfast every day.
+
+Man 4: Food all the time, drinks all the time
+
+Woman: Fresh fruit and smoothies. 
+
+Man 7: The ping pong and the breakfast. They kind of tied to this bigger culture. 
+
+Man 5: I walk around all these people I would like to work with. 
+
+Man 3: People are really friendly here. 
+
+Man 1: It’s a wonderful learning opportunity. It just feels that it has no balance.”
+
+So I didn’t want that to sound so much like a plug. I wanted to show the smiling faces, the culture. It makes me happy to go at the office every day. But more importantly that’s how you convert the old guard. You have people who are that happy about doing what they do and the old guard are going to come along with it. They want to be that happy, too. Let me say, the process does work and the reason that we do have process to make sure there’s an even playing field. If you want to go fast you go alone. If you want to go far, you go together. So, everybody is playing by the same rules. We do gradual indoctrination. 
+
+Pivotal labs excels in converting teams. It’s what we always did as a consulting company. We bring in developers and convert your engineering team. So, we just apply the same principles to Cloud Foundry. We have stand-ups, IPM’s, retrospectives, inceptions. Someone said that one of the people that presented about retrospectives and how , you know, how boring and painful they can be. And I think that’s probably right. One tip is to always have alcohol at a retro. That makes all the difference, beer.
+
+We pair program. That’s the actual developers over there. Testing is super important to us. We have a full suite now of unit, acceptance, integration tests. We have this massive continuum integration pipeline that expands multiple infrastructures: AWS, VSphere, OpenStack. So, we invested in that. We spent time saying “Ok, where’s one of the problems with this code base? It has no testing infrastructure.” So we were flying blind.
+
+So, in summary, we have to support from all levels, gradually converting the old guards. We focus on results of a process. Everyone plays by the same rules so it’s fair and importantly it means even elephants can be taught to dance.
+
+I don’t think there’ll be time for questions, but I’ll be having coffee over there so if anybody has any questions, just come and find me. And, of course, I must say we are hiring developers and product people.
+
+Thank you.
+
+
+
+
+
+
+
