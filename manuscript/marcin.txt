@@ -1,5 +1,7 @@
 # Marcin Floryan: #NoLearning
 
+![Sketchnote](images/originals/marcin.jpg)
+
 Marcin Floryan: No, this is not a picture of me, this is a picture of my friend, Ian. I’ve worked with Ian a few years ago and I was, oh no, look at Ian again, we were doing an Agile transformation and I was really new into this stuff so I would go to all the conferences and I would read all the books and I would do to Ian who is slightly more experienced and would say ‘’Ian, look at this book, do you know how much I’ve learned?’’ and Ian would listen to me very patiently and then would go ‘’Ok, so what have you changed?” And I would go ‘’ No, no! I’ve learnt all this stuff. I’m yet to change everything, but it’s fascinating learning’’ and then I would go to a conference and I would go to Ian and I would say ‘’Ian, look at all these stuff that I’ve learnt!’’ and he would go ‘’Hm. So what have you changed?” And really I did not understand what he mean. But hopefully thought the talk today we’ll try to explore that and find the answer to that question, what did Ian mean?
 
 So, some years after that I went to work for an organization called Emergen and for about a year we were trying to build an educational product. And at that point a really, really had to delve into what is it that we mean by learning and how do we learn best. This is just one of the books that we’ve produced as a part of that one year effort. But it really started opening my mind to what might have been the question that Ian was asking me.
