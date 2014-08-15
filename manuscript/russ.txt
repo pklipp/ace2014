@@ -1,5 +1,8 @@
 # Russ Miles: Pair Programming Considered Bad For Your 'Mental' Health
 
+![Sketchnote](images/originals/russ.jpg)
+
+
 All right! Good morning, good morning. Has everyone had enough coffee to start things off this early? This was early to me anyway. About a week ago I was in San Francisco and I think mentally I’m still in that time zone so I don’t know where that actually leaves me right now. But hopefully it leaves me awake enough to keep you up beat and I’ basically the warm up act for Liz who is not here yet. She’s busy doing her slides but I’m going to get you pumping and ready for Liz’s act this morning which is pretty cool.
 
 Ok, so, who writes code in the room? Who writes code every day roughly? Ok, there’s some people in the room. Ok. Fine. Just want to get balanced so I know who am I speaking to, at what level and I don’t want to go too deep and crazy into angled brackets and anything silly.  

@@ -1,5 +1,8 @@
 # Hakan Forss: Flow Thinking
 
+![Sketchnote](images/originals/hakan.jpg)
+
+
 Hakan: Good afternoon! Have you ever felt like this? Hm. Well, I’m trying to give you some tips of how we can get out of this trap. 
 
 Who am I? My name is Hakan Forss. I’m a Lean and Agile coach at the Vega Group in Stockholm. I’ve been doing this Agile stuff for some time, Scrum and XP, but for the last few years I’ve more gravitating towards Kanban and Lean because I think it’s a wider concept that we can apply even outside the IT part of our value streams. I’m a passionate cyclist if I have the time to actually do it and I especially like going uphill. The thing that makes it going hard to go uphill is they are like barbeque. 
