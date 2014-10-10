@@ -1,5 +1,7 @@
 ## Michael Hogan: Comparing SAFe and Scrum
 
+![Sketchnote](images/originals/hogan.jpg)
+
 Scrum and SAFe are both methods that have been developed by Agile practitioners to help teams increase Agility. In this article, I will compare and contrast Scrum and SAFe based on my impressions of and experience with each. In order for my impressions to be meaningful to you, I want to start off by first walking through a little bit of who I am and what professional experiences have shaped my perspectives on Scrum and SAFe. After a brief introduction, I'll move on to compare Scrum and SAFe using the lens of what it takes to scale any initiative within a large enterprise. My hope is that, whether you choose to adopt Scrum, SAFe, or neither, you'll leave today with some useful information about how to scale an initiative in a large organization. Finally, I'd like to leave you with my thoughts about the utility of applying Lean Thinking to creative work and share my view of where we need to head next as an Agile community.
 
 <h3>The Origins of My Perspectives on Agile</h3>

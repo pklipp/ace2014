@@ -1,5 +1,8 @@
 # Tom Gilb: Keynote - What is Wrong with Software Architecture?
 
+![Sketchnote](images/originals/gilb.png)
+
+
 Good morning! If you want a copy of the slides there they are. When we finally get synchronized with Dropbox there will be about 14 papers on Agile at that site which isn’t ready right yet. OK, so I’m going to talk about Agile methods but I’m going to talk about Agile methods that in fact our software engineering in the sense of using numbers and measurements and feedback. And I’m going to try and show that the best practices I recommend are proven by measure and quantified data.  And in my dreams all talks at conferences offer the same evidence for whatever they are proposing. That is facts that really work and how they work and what they cost.
 
 I, I love very busy slides. Some people don’t. So if you don’t I have a suggestion close your eyes, relax, meditate, maybe a little listen, but I have to have the busy slides because they are reality, they are the detail, you can study them at your leisure they are pretty downloadable. If you really don’t like busy slides and you just want an easy ride I recommend my TED talk where they forced me to get rid of all my busy slides whether I liked it or not.
