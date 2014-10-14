@@ -3,13 +3,41 @@
 ![Sketchnote](images/originals/gilb.png)
 
 
-Good morning! If you want a copy of the slides there they are. When we finally get synchronized with Dropbox there will be about 14 papers on Agile at that site which isn’t ready right yet. OK, so I’m going to talk about Agile methods but I’m going to talk about Agile methods that in fact our software engineering in the sense of using numbers and measurements and feedback. And I’m going to try and show that the best practices I recommend are proven by measure and quantified data.  And in my dreams all talks at conferences offer the same evidence for whatever they are proposing. That is facts that really work and how they work and what they cost.
+Good morning! If you want a copy of the slides there they are. 
 
-I, I love very busy slides. Some people don’t. So if you don’t I have a suggestion close your eyes, relax, meditate, maybe a little listen, but I have to have the busy slides because they are reality, they are the detail, you can study them at your leisure they are pretty downloadable. If you really don’t like busy slides and you just want an easy ride I recommend my TED talk where they forced me to get rid of all my busy slides whether I liked it or not.
+![slide 01](images/gilb/gilb01.png)
 
-I was a programmer for about 20 years and decided there was some higher calling, something let’s call it software engineering, requirements engineering, architecting, and I thought that was a challenge I would like to figure out how to do it and so the transition from being a programmer to being a, somebody who helps analyze and design that what programmers should do. Maybe some of you would like to make that transition after you programmed for about 20 years. How many people have programmed at least 20 years? Ok. Time left for the rest of you. Ok? This is an Agile so I’ll bring out my Agile credibility. You can call me Grandpa, I have white hair and I was fighting for these ideas since the 70’s actually when everybody thought I was absolutely crazy. And nice to know that the ideas that, iterations and feedback in particular are now widely adopted. 
+When we finally get synchronized with Dropbox there will be about 14 papers on Agile at that site which isn’t ready right yet. OK, so I’m going to talk about Agile methods but I’m going to talk about Agile methods that in fact our software engineering in the sense of using numbers and measurements and feedback. And I’m going to try and show that the best practices I recommend are proven by measure and quantified data.  And in my dreams all talks at conferences offer the same evidence for whatever they are proposing. That is facts that really work and how they work and what they cost.
 
-Here are some of your heroes, although we don’t really need them. OK? But coming from specifically where they picked up their wonderful Agile ideas from. One of the things that worries me is that so many of you somehow had an education where in my view you haven’t been taught enough IT and software history. So I am going to do a little bit of that at the same time. Those who.., if we don’t learn from history the lessons we’ve learnt, the methods we’ve learnt, we will just reinvent the wheel, we will make the same mistakes, we will waste years of our lives. So part of my role is to be not only the grandpa but the historian. I remember I met the people who did it decades ago before some of you were born. So, just for fun I picked up this picture of me in an Indian guru costume and that’s my son Kay actually getting married but I am symbolically I am the guru teaching my son and I hope all of you will be my symbolic sons and allow me to teach you what I know and I don’t know enough, I hope you will teach me back what I don’t know because there’s this fast body of knowledge that I don’t know. 
+![slide 01](images/gilb/gilb02.png)
+
+I, I love very busy slides. Some people don’t. So if you don’t I have a suggestion close your eyes, relax, meditate, maybe a little listen, but I have to have the busy slides because they are reality, they are the detail, you can study them at your leisure they are freely downloadable. 
+
+![slide 01](images/gilb/gilb03.png)
+
+If you really don’t like busy slides and you just want an easy ride I recommend my TED talk where they forced me to get rid of all my busy slides whether I liked it or not.
+
+![slide 01](images/gilb/gilb04.png)
+
+I was a programmer for about 20 years and decided there was some higher calling, something let’s call it software engineering, requirements engineering, architecting, and I thought that was a challenge I would like to figure out how to do it and so the transition from being a programmer to being a, somebody who helps analyze and design that what programmers should do. Maybe some of you would like to make that transition after you programmed for about 20 years. How many people have programmed at least 20 years? Ok. Time left for the rest of you. Ok? 
+
+![slide 01](images/gilb/gilb05.png)
+
+This is an Agile so I’ll bring out my Agile credibility. You can call me Grandpa, I have white hair and I was fighting for these ideas since the 70’s actually when everybody thought I was absolutely crazy. And nice to know that the ideas that, iterations and feedback in particular are now widely adopted. 
+
+![slide 01](images/gilb/gilb06.png)
+
+Here are some of your heroes, although we don’t really need them. OK? But coming from specifically where they picked up their wonderful Agile ideas from. 
+
+![slide 01](images/gilb/gilb07.png)
+
+One of the things that worries me is that so many of you somehow had an education where in my view you haven’t been taught enough IT and software history. So I am going to do a little bit of that at the same time. Those who.., if we don’t learn from history the lessons we’ve learnt, the methods we’ve learnt, we will just reinvent the wheel, we will make the same mistakes, we will waste years of our lives. So part of my role is to be not only the grandpa but the historian. I remember I met the people who did it decades ago before some of you were born. 
+
+![slide 01](images/gilb/gilb08.png)
+
+So, just for fun I picked up this picture of me in an Indian guru costume and that’s my son Kay actually getting married but I am symbolically I am the guru teaching my son and I hope all of you will be my symbolic sons and allow me to teach you what I know and I don’t know enough, I hope you will teach me back what I don’t know because there’s this vast body of knowledge that I don’t know. 
+
+![slide 01](images/gilb/gilb09.png)
 
 Basic ideas of this talk. First managers are bad at, managers, booooo, right, are really bad at deciding your work environment. You should be the ones to decide it. IT architects 
 
@@ -19,9 +47,23 @@ Tom: are really bad at designing what you should program, you should be in charg
 
 Audience: Yey!!! 
 
-Tom: Yey!!! Ok. So here is just, the talk I was originally going to hold, if you are missing that one about architecture, it’s on a video and basically I am telling 300 architects in London that they are childish idiots and quite an embarrassment to their profession. And I think they agree. Ok? How are we going to do this? Basic idea is we give some super ordinate objectives from our stakeholders and users to the programmers and they figure out smart designs and measure whether they are getting them. That’s for the design. For their own environment we give them information to the programmers about their bugs and problems, let them analyze root cause, let them figure out how to cure and let them implement measure when it’s done. So it’s quite simply clear delegation of power. 
+Tom: Yey!!! 
 
-Here if nothing else, I thought the picture is funny, enjoy it. In case you didn’t realize it, that’s you. Right? And the rest of them have other talents and trades. I’m going to start off by giving you some case studies from Raytheon and IBM. The contrast here is from top down decision making management decides what your working environment is going to be and what I really would like is to get you in the loop deciding what your work environment should be and trying out your ideas and finding out whether your ideas are really what you want. Let’s see, push button. There we go. In 1970 and 1980 two people at IBM Michael Fagan and Ron Radice they invented something called ‘’software inspection’’. And the intent was primarily to collect data on the working environment of the thousands of programmers of IBM and use these statistics to improve the environment. Long story short it didn’t work. I was there. I didn’t have any wiser ideas myself. I didn’t know why it didn’t work. It sounded like a good idea, get statistics, show what was frequently happening and fix the problem. Along came Robert Mays and Carol Jones in 1980 from IBM Research Triangle Park in North Carolina and they had a very simple idea. Delegate the power to the programmers themselves to analyze their own environment. Don’t let the managers do it. Don’t make it a statistical accumulation. Make it, you know, our work, bugs that we created, why did we do it? Were we sleepy? Was that the reason? Maybe the process changes to get more sleep before we get to work. That kind of thing and that worked. It worked so well that Robert got a citation from the chairman of IBM and $100000 prize just to indicate this was not a minor accomplishment it was impacting the whole IBM. 
+![slide 01](images/gilb/gilb10.png)
+
+Ok. So here is just, the talk I was originally going to hold, if you are missing that one about architecture, it’s on a video and basically I am telling 300 architects in London that they are childish idiots and quite an embarrassment to their profession. And I think they agree. Ok? 
+
+![slide 01](images/gilb/gilb11.png)
+
+How are we going to do this? Basic idea is we give some super ordinate objectives from our stakeholders and users to the programmers and they figure out smart designs and measure whether they are getting them. That’s for the design. For their own environment we give them information to the programmers about their bugs and problems, let them analyze root cause, let them figure out how to cure and let them implement measure when it’s done. So it’s quite simply clear delegation of power. 
+
+![slide 01](images/gilb/gilb12.png)
+
+Here if nothing else, I thought the picture is funny, enjoy it. In case you didn’t realize it, that’s you. Right? And the rest of them have other talents and traits.
+
+![slide 01](images/gilb/gilb13.png)
+
+I’m going to start off by giving you some case studies from Raytheon and IBM. The contrast here is from top down decision making management decides what your working environment is going to be and what I really would like is to get you in the loop deciding what your work environment should be and trying out your ideas and finding out whether your ideas are really what you want. Let’s see, push button. There we go. In 1970 and 1980 two people at IBM Michael Fagan and Ron Radice they invented something called ‘’software inspection’’. And the intent was primarily to collect data on the working environment of the thousands of programmers of IBM and use these statistics to improve the environment. Long story short it didn’t work. I was there. I didn’t have any wiser ideas myself. I didn’t know why it didn’t work. It sounded like a good idea, get statistics, show what was frequently happening and fix the problem. Along came Robert Mays and Carol Jones in 1980 from IBM Research Triangle Park in North Carolina and they had a very simple idea. Delegate the power to the programmers themselves to analyze their own environment. Don’t let the managers do it. Don’t make it a statistical accumulation. Make it, you know, our work, bugs that we created, why did we do it? Were we sleepy? Was that the reason? Maybe the process changes to get more sleep before we get to work. That kind of thing and that worked. It worked so well that Robert got a citation from the chairman of IBM and $100000 prize just to indicate this was not a minor accomplishment it was impacting the whole IBM. 
 
 Here’s a detailed case study which I dearly love. You can easily access the details from the links there. We’ll start off by, take a look at for 1000 programmers, take a look at what is called rework cost. Rework cost is the cost of fighting their own bugs and changing and retesting things. It is what normally is if you’re not measuring and try to fix it at about 43%. That means out of 1000 programmers 430 of them were tending the wounded from friendly fire. They were fixing bugs they themselves had created. That’s what I call a really stupid army. Unfortunately most of you are in that situation now but you don’t know because you are not measuring it. Try measuring the rework of what you do. Were pretty sloppy. Anyway they learn from Phillip Crosby’s work on “Quality is free” that high rework is not a necessity or an act of nature. You can gradually improve your process so as to reduce it. In this case they reduced it by factor of 10. And they reduced it by a factor of about 2 within the first year. So in the first year they were actually saving about 150 programmers for productive work and then they improved the process, sometimes they failed to improve the process well and they keep on improving the process systematically use a thing called defect prevention process, DPP. That’s the invention of Mayze and Jones. 
 
