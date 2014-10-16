@@ -181,23 +181,83 @@ Now, the same team two years later did something, I think pretty interesting. Th
 
 One, two, three over there with the speakers group, ha ha-ha. Ok, rest of you innocence, ok, Thomas. Let me introduce you to clean room, first we start with Harlan Mills, he’s got an interesting challenge, he’s for me like Leonardo DaVinci, of software engineering, the genius. And he was on IBM Federal Systems Division with all that rocket scientist quite literally, space military rockets. And IBM’s problem was that every time they won a bid they were the lowest bidder and every time they took that they lost money that is, they spent more money than the lowest bid. So they were just continually losing money on all of their contracts and they finally said "this has got to stop", either we find a way of earning money when we win the lowest bidder contract or we get out of the business. Harlan you have some time to figure out, this is the smarter way of treating the situation of, we just have to fix the income from the government and we don’t want to cheat to get the rest of the money we’d like to have. So he actually worked for ten years and reported in IBM system journal number 4 from 1980 quite extensively, that’s web available. 
 
-Now, there are two case studies here, one is the lamps project in navy helicopter system and the other is the NASA shuttle ground software. But, now you see what is clearly an incremental system. They are shipping the system in 45 incremental deliveries. That means 2%, that means once a month every month for 4 years. This is clearly what we today call Agile. And they’re very certainly using numbers and engineering for qualities like availability. Very clearly as I will show you in a moment with Quinnan, designing and engineering on every cycle. But let’s focus on the bottom line here. Very few late or overrun means budget overrun, financially overrun. In other words if you overrun you lose money, if you don’t overrun you break even or earn money. In a very few such deliveries in that decade, and none at all in the past four years. They’re building some of the most complex high quality systems on earth, space and military, to the very highest quality levels and yet they are achieving that, on time, under budget and they are making money. This is perfect project management for software. This is something, everybody should learn the recipe and repeat it. This is Agile at its best. It’s Agile but it’s engineering, too. These are engineers they understand the quantification of qualities and management to them very well. They are not just hacking code. Ok?
+Now, there are two case studies here, one is the lamps project in navy helicopter system and the other is the NASA shuttle ground software. But, now you see what is clearly an incremental system. They are shipping the system in 45 incremental deliveries. That means 2%, that means once a month every month for 4 years. This is clearly what we today call Agile. And they’re very certainly using numbers and engineering for qualities like availability. Very clearly as I will show you in a moment with Quinnan, designing and engineering on every cycle. But let’s focus on the bottom line here. 
 
-Quinnan, colleague of Mills is the sort of architect designer. The point he’s making is, every cycle they analyze, how did this design work? Did it really give us the availability we thought? Did it cost too much? If negative feedback, find a smarter design. Engineers have a paradigm called design to cost, ok? So, they call this dynamic design to cost because they’re doing it every cycle and they try to figure out what is that can reduce the cost and the timing and still give the high quality. If necessary they experiment, measure and get it right early. That’s how they deliver on time, under budget at the highest cost levels. They learn to live within their budget, ok, there is no planning poker or any childish games like that here. They’re told what their budget is, they’re told what their deadline is, they walk in. They have to figure out technically how to get there and they have to do it evolutionarily in small steps. This is Agile as it should be, is what I’d call it. But anyway you can study Quinnan in detail on web available things. Ok?
+![slide 72](images/gilb/gilb72.png)
 
-Design is an iterative process not an upfront process. Again these are the programmers involve in the loop, you know, not the managers at IBM or the directors anything like it. They are estimating in the loop, not with planning poker to begin with, estimating based on knowledge, facts and measurements and then new hypothesis, new trail, see if we know what we’re doing this time around.
+Very few late or overrun means budget overrun, financially overrun. In other words if you overrun you lose money, if you don’t overrun you break even or earn money. In a very few such deliveries in that decade, and none at all in the past four years. They’re building some of the most complex high quality systems on earth, space and military, to the very highest quality levels and yet they are achieving that, on time, under budget and they are making money. This is perfect project management for software. This is something, everybody should learn the recipe and repeat it. This is Agile at its best. It’s Agile but it’s engineering, too. These are engineers they understand the quantification of qualities and management of them very well. They are not just hacking code. Ok?
 
-Here’s another client of ours, he e-mailed me in 2011 and he mentioned he intended a 3- day course at City Group in 2006, I didn’t remember but I thought it was nice to have a new book review. He said there is a book review on my blog website but at the end of the book review he said "By the way I didn’t just read Tom’s book. I’ve been living in it for several years." Ok? And then he told a story of what he’d done after he’d been in the course there. Basically he said our bank, you recognize City as being partly Polish related and I spent a week here in Poland teaching this gang the methods, I don’t know how well that stuck but we did try. And basically the problem was they were tracking an amazing amount of stuff and they were very proud how good they were at tacking everything happening with software. But they were not tracking value delivered to stake holders. They were tracking functionality programmed and bugs and time, ok. So they are in a sense they’re tracking the wrong things but they weren’t even aware of it. They had the illusion that they were controlling risk but they were just controlling programming not the risk of failure to delivery, to deliver what the bank actually require. So, instead of using our Evo method which is the Agile method that does it with engineering, the Agile method that quantifies values, an Agile method quite identical to clean room and quite identical to Lean startup in principle, ok, measurement multidimensional stuff in cycles. Because he has low profile, don’t run if somebody uses this radical method you never heard of, just do it and if it works you will be forgiven, is another change tactic here. What he mentions here is that we talk very carefully, many of those things called requirements, that you are required to program are not really requirements they are largely design and the programmers should be figuring out the design, not the users. Users just stay at a higher level, I want to save time doing that task, they shouldn’t be designing the screen and the graphically user in the face, all that stuff. So, basically he took that lesson of separating what users wanted, the achievements they wanted and let the design himself be part of his team. So interesting enough the requirements remained unchanged for the 14 months of the project. Everybody knows the requirements turn 40% of the year, ok, but this is design turn. Indeed. They had plenty of design turn cause they plugged in design that they thought will work, but the designs didn’t work so they had to find some new ones. They were in the exactly same mode like in clean room. Ok . And a bottom line is successfully live, 800 users worldwide, undoubtedly some in Poland here, and big success by sponsoring stakeholders. Ok.
+![slide 73](images/gilb/gilb73.png)
+
+Quinnan, colleague of Mills is the sort of architect designer. The point he’s making is, every cycle they analyze, how did this design work? 
+
+![slide 74](images/gilb/gilb74.png)
+
+Did it really give us the availability we thought? Did it cost too much? If negative feedback, find a smarter design. Engineers have a paradigm called design to cost, ok? So, they call this dynamic design to cost because they’re doing it every cycle and they try to figure out what is that can reduce the cost and the timing and still give the high quality. If necessary they experiment, measure and get it right early. That’s how they deliver on time, under budget at the highest cost levels. They learn to live within their budget, ok, there is no planning poker or any childish games like that here. They’re told what their budget is, they’re told what their deadline is, they walk in. They have to figure out technically how to get there and they have to do it evolutionarily in small steps. This is Agile as it should be, is what I’d call it.
+
+![slide 75](images/gilb/gilb75.png)
+
+But anyway you can study Quinnan in detail on web available things. Ok?
+
+![slide 76](images/gilb/gilb76.png)
+
+Design is an iterative process not an upfront process. 
+
+![slide 77](images/gilb/gilb77.png)
+
+Again these are the programmers involved in the loop, you know, not the managers at IBM or the directors anything like it. 
+
+![slide 78](images/gilb/gilb78.png)
+
+They are estimating in the loop, not with planning poker to begin with, estimating based on knowledge, facts and measurements and then new hypothesis, new trail, see if we know what we’re doing this time around.
+
+![slide 79](images/gilb/gilb79.png)
+
+Here’s another client of ours, he e-mailed me in 2011 and he mentioned he intended a 3-day course at City Group in 2006, I didn’t remember but I thought it was nice to have a new book review. He said there is a book review on my blog or website but at the end of the book review he said "By the way I didn’t just read Tom’s book. I’ve been living in it for several years." Ok? And then he told a story of what he’d done after he’d been in the course there.
+
+![slide 80](images/gilb/gilb80.png)
+ 
+Basically he said our bank, you recognize City as being partly Polish related and I spent a week here in Poland teaching this gang the methods, I don’t know how well that stuck but we did try. And basically the problem was they were tracking an amazing amount of stuff and they were very proud how good they were at tracking everything happening with software. But they were not tracking value delivered to stake holders. They were tracking functionality programmed and bugs and time, ok. 
+
+![slide 81](images/gilb/gilb81.png)
+
+So they are in a sense they’re tracking the wrong things but they weren’t even aware of it. They had the illusion that they were controlling risk but they were just controlling programming not the risk of failure to delivery, to deliver what the bank actually require. 
+
+![slide 82](images/gilb/gilb82.png)
+
+So, instead of using our Evo method which is the Agile method that does it with engineering, the Agile method that quantifies values, an Agile method quite identical to clean room and quite identical to Lean startup in principle, ok, measurement multidimensional stuff in cycles. Because he had a low profile, don’t run if somebody uses this radical method you never heard of, just do it and if it works you will be forgiven, is another change tactic here. 
+
+![slide 83](images/gilb/gilb83.png)
+
+What he mentions here is that we talk very carefully, many of those things called requirements, that you are required to program are not really requirements they are largely design and the programmers should be figuring out the design, not the users. Users just stay at a higher level, I want to save time doing that task, they shouldn’t be designing the screen and the graphically user in the face, all that stuff. So, basically he took that lesson of separating what users wanted, the achievements they wanted and let the design himself be part of his team. So interesting enough the requirements remained unchanged for the 14 months of the project. Everybody knows the requirements turn 40% of the year, ok, but this is design churn. Indeed. 
+
+![slide 84](images/gilb/gilb84.png)
+
+They had plenty of design churn cause they plugged in design that they thought will work, but the designs didn’t work so they had to find some new ones. They were in the exactly same mode like in clean room. Ok. 
+
+![slide 85](images/gilb/gilb85.png)
+
+And a bottom line is successfully live, 800 users worldwide, undoubtedly some in Poland here, and big success by sponsoring stakeholders. Ok.
 
 In fact the same, Richard Smith is going to present a small conference, private conference I’ll hold in London next week, he’s experienced with Japanese banks. I just got his slides last night, he is still doing them. 
 
+![slide 86](images/gilb/gilb86.png)
+
 Is it hard to change? Sure, it’s incredibly hard to change. Especially if managers try to buy top down command and control. It is, according to my evidence it’s much easier to change if you delegate the change process to the people who know what’s going on and have the power to make a difference and those are called developers.  Wow, I’ve actually time left.
+
+![slide 87](images/gilb/gilb87.png)
 
 Just for fun, last night, I have a hobby, is whenever I do anything I like to find the 10 principles and summarize it. So, just for fun in the work environment we need to delegate to the doers, that’s you, we need to measure the improvements, we need to let the troops, that’s you, identify the common cause defects, the things that are wrong and create many bugs and problems, we need to let you suggest what is the root cause, like I didn’t get enough sleep, and we need to let you try out, ok, come to work when you slept enough. Ok, whatever it is. 
 
 In the product development area the troops, as in confirmed, to choose the value goal to work on, in other words which one of these goals will work on, that’s a choice. They need to estimate the power of their ideas, not throwing ideas let’s throw an idea and say “Let’s program and see what happens”, but estimate in advance it will save 20 minutes. We need to let them decide which of many designs they choose to implement as a team internally and not let any manager or customer interfere with that decision making process. We need to let them measure the results this week now and total to date so they know where they are and getting towards the goal levels. And we need to credit them for the results and reword them for their success. My suggestion was always if they were done in 9 weeks all the goal levels shouldn’t they have 3-week holiday, that’s been turned down time and time again. The nearest we ever got to reward like that is that they had 3 weeks to do training of their choice at any conference in the world. That they thought they could get away with. They said we can’t give them vacation. Everybody else in the company would be so jealous it wouldn’t work. Ok, nice idea. Ok.
 
-So, the revolution has been here for decades but maybe you didn’t learn about it but I’ve tried to inform you the best I could, give you a lot of stuff to follow up so you know. Was it Karl Marx’ "workers of the world unite" something like that. You guys remember that stuff, anyway. Programmers of the world unite. Finally if you really want to read a tough book with the deepest wisdom I’ve managed to collect in about 40 years I’ll give you a free digital copy if you send me an e-mail. If you don’t want to read anything heavy I’ve tried to put some lighter reading, 14 papers on Agile including many things I’ve been talking about at this address although we are still struggling with the Internet trying to get it in there so it may be a while but sometime today that address will be valid, with the first person who finds stuff there check it out let me know. Copy of the slides are there and copy of my papers.
+![slide 88](images/gilb/gilb88.png)
+
+So, the revolution has been here for decades but maybe you didn’t learn about it but I’ve tried to inform you the best I could, give you a lot of stuff to follow up so you know. Was it Karl Marx’ "workers of the world unite" something like that. You guys remember that stuff, anyway. Programmers of the world unite. 
+
+![slide 89](images/gilb/gilb89.png)
+
+Finally if you really want to read a tough book with the deepest wisdom I’ve managed to collect in about 40 years I’ll give you a free digital copy if you send me an e-mail. If you don’t want to read anything heavy I’ve tried to put some lighter reading, 14 papers on Agile including many things I’ve been talking about at this address although we are still struggling with the Internet trying to get it in there so it may be a while but sometime today that address will be valid, with the first person who finds stuff there check it out let me know. Copy of the slides are there and copy of my papers.
 
 And a small miracle has happened. I’m done. Thank  you.                                                                                                                                                                         
 
