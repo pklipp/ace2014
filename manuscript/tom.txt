@@ -159,29 +159,153 @@ When we meet them they’d been 8 years in an international market with clients 
 
 ![slide 36](images/gilb/gilb36.png)
 
-They had 50% of the world market it which isn’t bad for a little Norwegian company from Oslo. But they took an advice to dump the 1500 requirements in a queue which were largely designs by the amateur users, dump them forever and they did and focus on some high level requirements set by the marketing director. We need to be more user friendly and things like that. Here is an example of one of them written in my planning language, "Planguage", which says ok you have subset for usability, productivity defined, time in minutes to set up a typical specified Market Research-report. The old release 65 minutes, we’d like at least to get down to 35 minutes, this is every user every day anything and in our dreams we’d like to get to 25 minutes, that would be fantastic. This is the requirement coming in from the outside but the programmer stare that and say "How are we going to design the system to get to 25 minutes?" is the question. And they make a decision to try to do it, program test it and see how it goes. Ok? 
+They had 50% of the world market it which isn’t bad for a little Norwegian company from Oslo. But they took an advice to dump the 1500 requirements in a queue which were largely designs by the amateur users, dump them forever and they did and focus on some high level requirements set by the marketing director. We need to be more user friendly and things like that. Here is an example of one of them written in my planning language, "Planguage", which says ok you have subset for usability, productivity defined, time in minutes to set up a typical specified Market Research-report. The old release 65 minutes, we’d like at least to get down to 35 minutes, this is every user every day anything and in our dreams we’d like to get to 25 minutes, that would be fantastic. This is the requirement coming in from the outside but the programmer stare that and say "How are we going to design the system to get to 25 minutes?" is the question. And they make a decision to try to do it, program, test it and see how it goes. Ok? 
 
 ![slide 37](images/gilb/gilb37.png)
 
-This is just saying that they completely left the idea of the detail features and burn down stacks and users stories and all this kind of stuff and they decided to focus on the what I call the top ten most critical objectives at all times. Trond whipped up a little tool we’ve seen far more advanced versions of it than this, but this tool is a snapshot of week 9 out of 12 weeks. After 12 weeks, a quarter of the year, they released it to the world. But in the 9 intervening weeks, we call them value delivery cycles, something like a sprint, except sprints are not really focused on delivering value, they’re focused on delivering code. But we focus on delivering value. 
+This is just saying that they completely left the idea of the detail features and burn down stacks and users stories and all this kind of stuff and they decided to focus on the what I call the top ten most critical objectives at all times. 
 
 ![slide 38](images/gilb/gilb38.png)
 
-So here is the requirement we looked at where these are requirements, this is the one we looked at, currently 65 minutes and every one is a sequence here. We’re trying to move from here to there, we want to at least to get to the 35 minutes. We’d love to get to 25 minutes, so the and we have a 110 working hours with about 4 people working on this agenda for a quarter of the year. Ok? The team chose the beginning of step 9 to work on this one because nothing had been delivered and improved from the previous 8 weeks. That’s a similar problem here and here, they’ve been working on the things that have been numbers. These numbers there, one hundred means they’ve met their goal, 200 means they’ve done twice as good as the goal, 50% means they’re half way through the goal. So this gives the project team an agenda, basically the weakest links in the chain need to be worked on. This is protocol dynamic prioritization and the team is at liberty to prioritize whatever they want. Nobody is going to tell them what to do. Their only agenda is at the end of a quarter of a year to deliver this goal numbers within this timeframe. 
+Trond whipped up a little tool we’ve seen far more advanced versions of it than this, but this tool is a snapshot of week 9 out of 12 weeks. After 12 weeks, a quarter of the year, they released it to the world. But in the 9 intervening weeks, we call them value delivery cycles, something like a sprint, except sprints are not really focused on delivering value, they’re focused on delivering code. But we focus on delivering value. 
 
-So, that’s the agenda, get to 25 minutes. They’ve decided to work on that that week. They have a stand up meeting and within a half an hour suggest about 12 different designs. One of them is market information recoding and the question we ask the very design is "Ok. You think that’s a great design. How many minutes of the 40 do we need to save do you think we’ll save?" And the estimate here is 20. And that was the best one. And they also felt it would take them their 4- working day cycle to do it so they didn’t have time for anything better. 20 minutes is just of course just 50% of the way towards their task. Ok? Go, go. And, so they coded and implemented that and Microsoft usability labs kindly decided they would for free measure all the usability measures and Microsoft usability labs overnight Thursday to Friday said "You’ve saved 48 minutes, which is 95% of the target. Congratulations the design was twice as good as you estimated." They then spent a weekend trying to get to at least a hundred and over the weekend one guy and not the whole team got to 20 minutes which 12,5% more than necessary. So this is sordid, no longer has priorities and weeks end they can do that or that or the third one. They’ve got three more weeks to play with. What they..by the way after 9 out of 12 weeks,  75% of the time they have achieved on the average 91,8% of all their value. In other words they are ahead of the curve. 
+So here is the requirement we looked at where these are requirements, this is the one we looked at, currently 65 minutes and let me run you through a sequence here. 
 
-This is the new burn down cycle. It’s a value cycle. It’s a value to cost cycle. We have coded cycle which may or may not give you the value of what is worth. We are changing focus to numeric values as understood by our users and customers primarily. So, that they also for fun compute priorities where red means you ‘d better worry about it. Green means you’re cool don’t even think of using any effort on it. And yellow means your tolerable level you’ve got the minimum worst acceptable case but you’re still not green you’ve not reached your goal level. So, this is such a logical system that priority can be computed directly by the spread sheet. These are the 25 goals they’ve set for the 16 people and each one of these is a 4 person team approximately working in parallel for a 12-week cycle. And you can see from the cumulative numbers here that all the teams are largely up there at about 90% of achievement within 75% of the time in other words well ahead of the curve delivering good value for money and time. This is the weekly cycle and I’m not going through in detail we develop this part in very large use of the Evo method at Hewlett-Packard. We have a case study publish by Hewlett-Packard on that. They innovated a little bit what the chief technical officer Peter was going to do and what Trond was going to do was QA manager and one would have to study that in time. 
+![slide 39](images/gilb/gilb39.png)
 
-Of the 25 things they did set up to do on the first quarter, after by the way one day of training I should add, ok, not two days, you master these in one day apparently. These are some, these are the 5 of the 25 that have the both sensational change. For example the first one time for system to generate a survey these are gallop poll kind of things was 2 hours gotten down to 15 seconds. This is like a free release to the user. Imagine if you’re driving to work and it takes an hour and your drive back takes an hour every day and the new I-phone apps which is freely downloaded says you will totally use 15 seconds in transport every day. Be my guest! That’s what the user is forgiven of sensational results and they got about 25 good results. Ok. 
+We’re trying to move from here to there, we want to at least to get to the 35 minutes. 
 
-A good sign of a method is when the people doing and loved it and feel empowered and understand it. So, here’s Trond’s comments on the fact that they really liked it. They love to stand around the corridors say "We made this product great and therefore we are the essential element of this company". Ok. Not the directors, not the managers, we are wise enough to make quite sure that the developers got all the credit. This is, using their own survey tool, this is how dead pleased their customers were when they’re just about to get their second release. And this on the second quarter are some of the big numbers they achieved by turning to other things and keep on turning out quite sensational improvements by just shifting to things not yet done. So that makes the case for delegating the power to the programmers for finding the design. You will not see such numbers in any other context, I believe, please enlighten me  if I’m wrong and you‘ve got the numbers to prove it.
+![slide 40](images/gilb/gilb40.png)
 
-Now, the same team two years later did something, I think pretty interesting. They said this is really successful this idea of engineering towards multidimensional goals and empowering us to find things, works great. We have a problem, they have a problem before we’ve met them, not surprisingly 8 year old startup, hacking together code to get on the air and served the market. There was no grand plan of elegant architecture, so it’d be easy to maintain. Ok, the first thing we suggested is that they invested a little, one day a week in cleaning up the code, but that didn’t work very well. So, they themselves figured out something much smarter to reduce their technical debt. And what they did was, they made a list of the technical debt aspects in another words attributes to the system that was made more or less easy to change and test and debug the system which are here. They set numerical goals and then they gave themselves one week every month called the green week where they worked on their own programming environment. Again there are teams in their own environment, ok? And they, it’s exactly like the Raytheon in principle, but they are specifically given a week a month guaranteed every months or they will be nice to themselves, the programmers and developers. They decide what their agenda is they decide the design, they make it happen one way or the other and they measure whether they’re in fact reducing their technical debt as described by a set of things like that and a set of rules like that. I thought that was bloody brilliant. I wish I thought of it myself. I didn’t but at least I can tell you that my client figured that out. Devote time to instead of refactoring which only at best messes with the code, they’re messing with the whole system including testing of everything they do to maintain the system. So they’re engineering reduction of technical debt. And I don’t think you do that by just letting a programmer loose on the source code. Ok. So, maybe I’ve said that well enough? Let’s go and take a look at another historical great, something called the clean room method which was developed by Harlan Mills and IBM in the 70’s. How many people say "I know what the clean room method is?"
+We’d love to get to 25 minutes, 
 
-One, two, three over there with the speakers group, ha ha-ha. Ok, rest of you innocence, ok, Thomas. Let me introduce you to clean room, first we start with Harlan Mills, he’s got an interesting challenge, he’s for me like Leonardo DaVinci, of software engineering, the genius. And he was on IBM Federal Systems Division with all that rocket scientist quite literally, space military rockets. And IBM’s problem was that every time they won a bid they were the lowest bidder and every time they took that they lost money that is, they spent more money than the lowest bid. So they were just continually losing money on all of their contracts and they finally said "this has got to stop", either we find a way of earning money when we win the lowest bidder contract or we get out of the business. Harlan you have some time to figure out, this is the smarter way of treating the situation of, we just have to fix the income from the government and we don’t want to cheat to get the rest of the money we’d like to have. So he actually worked for ten years and reported in IBM system journal number 4 from 1980 quite extensively, that’s web available. 
+![slide 41](images/gilb/gilb41.png)
 
-Now, there are two case studies here, one is the lamps project in navy helicopter system and the other is the NASA shuttle ground software. But, now you see what is clearly an incremental system. They are shipping the system in 45 incremental deliveries. That means 2%, that means once a month every month for 4 years. This is clearly what we today call Agile. And they’re very certainly using numbers and engineering for qualities like availability. Very clearly as I will show you in a moment with Quinnan, designing and engineering on every cycle. But let’s focus on the bottom line here. 
+so the and we have a 110 working hours 
+
+![slide 42](images/gilb/gilb42.png)
+
+with about 4 people working on this agenda for a quarter of the year. 
+
+![slide 43](images/gilb/gilb43.png)
+
+Ok? The team chose the beginning of step 9 to work on this one because nothing had been delivered and improved from the previous 8 weeks. That’s a similar problem here and here, they’ve been working on the things that have been numbers. These numbers there, one hundred means they’ve met their goal, 200 means they’ve done twice as good as the goal, 50% means they’re half way through the goal. So this gives the project team an agenda, basically the weakest links in the chain need to be worked on. This is protocol dynamic prioritization and the team is at liberty to prioritize whatever they want. Nobody is going to tell them what to do. Their only agenda is at the end of a quarter of a year to deliver this goal numbers within this timeframe. 
+
+![slide 44](images/gilb/gilb44.png)
+
+So, that’s the agenda, get to 25 minutes. They’ve decided to work on that that week. 
+
+![slide 45](images/gilb/gilb45.png)
+
+They have a stand up meeting and within a half an hour 
+
+![slide 46](images/gilb/gilb46.png)
+
+suggest about 12 different designs. One of them is market information recoding and the question we ask the very design is "Ok. You think that’s a great design. How many minutes of the 40 do we need to save do you think we’ll save?" 
+
+![slide 47](images/gilb/gilb47.png)
+
+And the estimate here is 20. 
+
+![slide 48](images/gilb/gilb48.png)
+
+And that was the best one. 
+
+![slide 49](images/gilb/gilb49.png)
+
+And they also felt it would take them their 4- working day cycle to do it so they didn’t have time for anything better. 
+
+![slide 50](images/gilb/gilb50.png)
+
+20 minutes is just of course just 50% of the way towards their task. 
+
+![slide 51](images/gilb/gilb51.png)
+
+Ok? Go, go. And, so they coded and implemented that and Microsoft usability labs kindly decided they would for free measure all the usability measures 
+
+![slide 52](images/gilb/gilb52.png)
+
+and Microsoft usability labs overnight Thursday to Friday said "You’ve saved 38 minutes, which is 95% of the target. Congratulations the design was twice as good as you estimated." They then spent a weekend trying to get to at least a hundred and over the weekend one guy and not the whole team got to 20 minutes which 12.5% more than necessary. So this is sorted, no longer has priority and week ten they can do that or that or the third one. They’ve got three more weeks to play with. What they..by the way after 9 out of 12 weeks, 75% of the time they have achieved on the average 91,8% of all their value. In other words they are ahead of the curve. 
+
+This is the new burn down cycle. It’s a value cycle. It’s a value to cost cycle. We have coded cycle which may or may not give you the value of what is worth. We are changing focus to numeric values as understood by our users and customers primarily. 
+
+![slide 53](images/gilb/gilb53.png)
+
+So, that they also for fun compute priorities where red means you'd better worry about it. 
+
+![slide 54](images/gilb/gilb54.png)
+
+Green means you’re cool don’t even think of using any effort on it. And yellow means your tolerable level you’ve got the minimum worst acceptable case but you’re still not green you’ve not reached your goal level. So, this is such a logical system that priority can be computed directly by the spread sheet. 
+
+![slide 55](images/gilb/gilb55.png)
+
+These are the 25 goals they’ve set for the 16 people and each one of these is a 4 person team approximately working in parallel for a 12-week cycle. And you can see from the cumulative numbers here that all the teams are largely up there at about 90% of achievement within 75% of the time in other words well ahead of the curve delivering good value for money and time. 
+
+![slide 56](images/gilb/gilb56.png)
+
+This is the weekly cycle and I’m not going through in detail we develop this part in very large use of the Evo method at Hewlett-Packard. We have a case study publish by Hewlett-Packard on that. They innovated a little bit what the Chief Technical Officer Peter was going to do and what Trond was going to do was QA manager and one would have to study that in time. 
+
+![slide 57](images/gilb/gilb57.png)
+
+Of the 25 things they did set up to do on the first quarter, after by the way one day of training I should add, ok, not two days, you master this in one day apparently. These are some, these are the 5 of the 25 that have the both sensational change. For example the first one time for system to generate a survey these are Gallop poll kind of things was 2 hours gotten down to 15 seconds. This is like a free release to the user. Imagine if you’re driving to work and it takes an hour and your drive back takes an hour every day and the new iPhone app which is freely downloaded says you will totally use 15 seconds in transport every day. Be my guest! That’s what the user is forgiven of sensational results and they got about 25 good results. Ok. 
+
+![slide 58](images/gilb/gilb58.png)
+
+A good sign of a method is when the people doing and loved it and feel empowered and understand it. So, here’s Trond’s comments on the fact that they really liked it. They love to stand around the corridors sayinf "We made this product great and therefore we are the essential element of this company". Ok. Not the directors, not the managers, we are wise enough to make quite sure that the developers got all the credit. 
+
+![slide 59](images/gilb/gilb59.png)
+
+![slide 60](images/gilb/gilb60.png)
+
+This is, using their own survey tool, this is how dead pleased their customers were when they’re just about to get their second release. 
+
+![slide 61](images/gilb/gilb61.png)
+
+And this on the second quarter are some of the big numbers they achieved by turning to other things 
+
+![slide 62](images/gilb/gilb62.png)
+
+and keep on churning out quite sensational improvements by just shifting to things not yet done. So that makes the case for delegating the power to the programmers for finding the design. 
+
+![slide 63](images/gilb/gilb63.png)
+
+You will not see such numbers in any other context, I believe, please enlighten me if I’m wrong and you‘ve got the numbers to prove it.
+
+![slide 64](images/gilb/gilb64.png)
+
+Now, the same team two years later did something, I think pretty interesting. They said this is really successful this idea of engineering towards multidimensional goals and empowering us to find things, works great. We have a problem, they have a problem before we’ve met them, not surprisingly 8 year old startup, hacking together code to get on the air and served the market. There was no grand plan of elegant architecture, so it’d be easy to maintain. Ok, the first thing we suggested is that they invested a little, one day a week in cleaning up the code, but that didn’t work very well. So, they themselves figured out something much smarter to reduce their technical debt. 
+
+![slide 65](images/gilb/gilb65.png)
+
+And what they did was, 
+
+![slide 66](images/gilb/gilb66.png)
+
+they made a list of the technical debt aspects in another words attributes to the system that was made more or less easy to change and test and debug the system which are here. They set numerical goals 
+
+![slide 67](images/gilb/gilb67.png)
+
+and then they gave themselves one week 
+
+![slide 68](images/gilb/gilb68.png)
+
+every month called the green week where they worked on their own programming environment. Again there are teams in their own environment, ok? And they, it’s exactly like the Raytheon in principle, but they are specifically given a week a month guaranteed every months where they will be nice to themselves, the programmers and developers. They decide what their agenda is they decide the design, they make it happen one way or the other and they measure whether they’re in fact reducing their technical debt as described by a set of things like that and a set of rules like that. I thought that was bloody brilliant. I wish I thought of it myself. I didn’t but at least I can tell you that my client figured that out. Devote time to instead of refactoring which only at best messes with the code, they’re messing with the whole system including testing of everything they do to maintain the system. 
+
+![slide 69](images/gilb/gilb69.png)
+
+So they’re engineering reduction of technical debt. And I don’t think you do that by just letting a programmer loose on the source code. Ok. So, maybe I’ve said that well enough? 
+
+![slide 70](images/gilb/gilb70.png)
+
+Let’s go and take a look at another historical great, something called the clean room method which was developed by Harlan Mills and IBM in the 70’s. How many people say "I know what the clean room method is?"
+
+One, two, three over there with the speakers group, ha ha-ha. Ok, rest of you innocence, ok, Thomas. 
+
+![slide 71](images/gilb/gilb71.png)
+
+Let me introduce you to clean room, first we start with Harlan Mills, he’s got an interesting challenge, he’s for me like Leonardo DaVinci, of software engineering, the genius. And he was at IBM Federal Systems Division with all that rocket scientists, quite literally, space military rockets. And IBM’s problem was that every time they won a bid they were the lowest bidder and every time they took that they lost money that is, they spent more money than the lowest bid. So they were just continually losing money on all of their contracts and they finally said "this has to stop", either we find a way of earning money when we win the lowest bidder contract or we get out of the business. Harlan you have some time to figure out, this is the smarter way of treating the situation of, we just have to fix the income from the government and we don’t want to cheat to get the rest of the money we’d like to have. So he actually worked for ten years and reported in IBM Systems Journal number 4 from 1980 quite extensively, that’s web available. 
+
+Now, there are two case studies here, one is the Lamps project in navy helicopter system and the other is the NASA shuttle ground software. But, now you see what is clearly an incremental system. They are shipping the system in 45 incremental deliveries. That means 2%, that means once a month every month for 4 years. This is clearly what we today call Agile. And they’re very certainly using numbers and engineering for qualities like availability. Very clearly as I will show you in a moment with Quinnan, designing and engineering on every cycle. But let’s focus on the bottom line here. 
 
 ![slide 72](images/gilb/gilb72.png)
 
