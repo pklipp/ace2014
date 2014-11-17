@@ -2,17 +2,27 @@
 
 ![Sketchnote](images/originals/kasia.jpg)
 
-Kasia: Hi, guys. I hope that you can all hear me, especially those sitting in the back. And I have surprise for you, if you’re sitting in the back here’s a nice lady with microphone. Just please, stand and show you. Yeah. I will be asking questions and if you’re sitting in the front those questions will not be asked for you and if you’re sitting in the back this nice lady will pick a victim, I’m sorry, a volunteer  to answer a question. So, beware and better go closer. 
+![slide 01](images/kasia/kasia01.png)
+
+Kasia: Hi, guys. I hope that you can all hear me, especially those sitting in the back. And I have surprise for you, if you’re sitting in the back here’s a nice lady with microphone. Just please, stand and show you. Yeah. I will be asking questions and if you’re sitting in the front those questions will not be asked for you and if you’re sitting in the back this nice lady will pick a victim, I’m sorry, a volunteer to answer a question. So, beware and better go closer. 
 
 And just, you know, starting my presentation I heard that the best presentations have an animal in slides and it’s a particular animal called a cat. Because I don’t own a cat and I own a dog I decided to, for the dog. I hope this presentation will be awesome. And yeah, what else?
 
+![slide 02](images/kasia/kasia02.png)
+
 Basically I love skiing and because it’s a sport people cheer each other during the competition just to feel the strength of the crowd. Because it’s my first talk in English I would love to have a cheer from you, so, maybe some applause, or, you know maybe some cheering and laughing. I can’t hear you, guys. Oh, excellent. 
 
+![slide 03](images/kasia/kasia03.png)
+
 So, moving on. We’ll today, we’ll talk about requirements and the art of saying no. And I have a few basic exercises to begin with. And your task will be just: read what is in the slide. So, the first task is really, really easy. I can’t hear you. I can’t hear you. Louder. It’s easy. Come on!
+
+![slide 04](images/kasia/kasia04.png)
 
 Audience: Yes!
 
 Kasia: Excellent. And now it’s the hard task. 
+
+![slide 05](images/kasia/kasia05.png)
 
 Audience: No!
 
@@ -20,19 +30,49 @@ Kasia: I can’t hear you. 
 
 Audience: No!
 
-Kasia: You know, you’re the masters. You don’t need me so I’m going. Bye! Oh, of course it was a joke. Basically we’ll talk a bit about psychology and why actually saying no and disagreeing is quite hard for us. We’ll, you know, talk about how to hear, to hear the needs. And, you know, we’ll be talking about visualization, so translating from the business language to the IT language which you are all familiar with. And also we will talk about arguing and how to give arguments and in the end I will share some few tips and tricks if we have enough time, of course. 
+Kasia: You know, you’re the masters. You don’t need me so I’m going. Bye! Oh, of course it was a joke. 
 
-Basically, why should you care? Why should you see this presentation and pay attention? I’ll give you one minute to read. So, basically SAP is my favorite example of a software. It’s quite expensive one and in the beginning of development of this tool, in the early 90’s there was a company called Foxmeyer Drugs. They basically bought SAP and if they only bought it, not implement it, they will probably survive and were keeping up. And they were quite stubborn and they bought it. They tried to implement it and fit it to their process and it didn’t suit. SAP is an enterprise resource planning system and in those days there were like more manufacturing planning systems than enterprise and it simply was for manufacturing companies not for a pharmacy company. And because they were struggling with this, they went bankrupt. It’s quite nice case study for this because it also shows that if we have responsibility among all people in the company and, you know, and we are cooperating then we are moving forward all together. And basically this talk is not about teaching business people how to do their business because, you know, they are experts. You’re supposed to see there a YouTube movie so now you it’s supposed to do, you know, to have a laugh or cheer. So.
+![slide 06](images/kasia/kasia06.png)
+
+Basically we’ll talk a bit about psychology and why actually saying no and disagreeing is quite hard for us. We’ll, you know, talk about how to hear, to hear the needs. And, you know, we’ll be talking about visualization, so translating from the business language to the IT language which you are all familiar with. And also we will talk about arguing and how to give arguments and in the end I will share some few tips and tricks if we have enough time, of course. 
+
+![slide 07](images/kasia/kasia07.png)
+
+Basically, why should you care? Why should you see this presentation and pay attention? I’ll give you one minute to read. 
+
+![slide 08](images/kasia/kasia08.png)
+
+So, basically SAP is my favorite example of a software. It’s quite expensive one and in the beginning of development of this tool, in the early 90’s there was a company called Foxmeyer Drugs. They basically bought SAP and if they only bought it, not implement it, they will probably survive and were keeping up. And they were quite stubborn and they bought it. They tried to implement it and fit it to their process and it didn’t suit. SAP is an enterprise resource planning system and in those days there were like more manufacturing planning systems than enterprise and it simply was for manufacturing companies not for a pharmacy company. And because they were struggling with this, they went bankrupt. It’s quite nice case study for this because it also shows that if we have responsibility among all people in the company and, you know, and we are cooperating then we are moving forward all together. 
+
+![slide 09](images/kasia/kasia09.png)
+
+And basically this talk is not about teaching business people how to do their business because, you know, they are experts. 
+
+![slide 10](images/kasia/kasia10.png)
+
+You’re supposed to see there a YouTube movie so now you it’s supposed to do, you know, to have a laugh or cheer. So.
 
 Audience: Yey!
 
-Kasia: And sometimes it is actually hard to know which feature is needed or which is not needed and this quite nicely reflects this situation. And returning to my SAP example. If we have a system which is basically for accountants and their beginning, the beginning of the SAP, it was a system for accountants and you decided for example to overwrite this system because it’s quite old, maybe it’s not flexible enough and you have in your company a visionary who says you “Ok, we don’t have ready product, yet. We have a bit started, a bit started here and another bit here and it’s not working yet but he’s keeping with new ideas for new features. One of the new brilliant features is how about implementing Google handouts in our SAP system?” Brilliant idea. You know accountant have to talk to each other so we can allow them to talk. Maybe it’s a brilliant idea but if we have, you know, bits of software started and not finished and our basic produce is not working and we are talking about new and fancy features it usually won’t work. So, it’s the time to say “Ok. It’s a brilliant idea but first we should finish something. Deliver it. Ship it to the customer and then making new features.” So, it’s the basic example.
+Kasia: And sometimes it is actually hard to know which feature is needed or which is not needed and this quite nicely reflects this situation. And returning to my SAP example. If we have a system which is basically for accountants and their beginning, the beginning of the SAP, it was a system for accountants and you decided for example to overwrite this system because it’s quite old, maybe it’s not flexible enough and you have in your company a visionary who says you “Ok, we don’t have ready product, yet. We have a bit started, a bit started here and another bit here and it’s not working yet but he’s keeping with new ideas for new features. One of the new brilliant features is how about implementing Google hangouts in our SAP system?” Brilliant idea. You know accountant have to talk to each other so we can allow them to talk. Maybe it’s a brilliant idea but if we have, you know, bits of software started and not finished and our basic process is not working and we are talking about new and fancy features it usually won’t work. So, it’s the time to say “Ok. It’s a brilliant idea but first we should finish something. Deliver it. Ship it to the customer and then making new features.” So, it’s the basic example.
 
-So, why you should. No. basically to support business decisions, to show that there are some constraints from our technical perspective that no analyze to deliver is for example as quickly as the business expects or from our perspective it’s a waste. So, waste of time, waste of money. And it’s not our money, it’s the business money and they usually don’t understand this because. Ah, we will see during my presentation why they like a business, don’t understand it. So, I want to express also that we all here are responsible for creating a software and I really strongly believe that you are really well talented people here and you want to create a masterpiece not just piece of software about something which is really excellent and users like to use it. So, returning to this SAP example. Just imagine that if you have a system and your users hate it and you know comparing it to this, you know, for example to the SAP and how do you feel it? You are not feeling well, so it’s sometimes really worthy to say that something, you know, is missing, something is not suiting. And if you just disagree then you can take action. If you are just keeping  silence, you deliver it to the customer and he won’t be satisfied. 
+![slide 11](images/kasia/kasia11.png)
 
-So, there are commoner possibilities to great, great software because we all, you know, I think we all work in Agile, at least our companies think so. So, basically how many of us, of you deal with customers on daily basis? Please raise your hand only. Ok. Quite a lot of you. So, maybe the second question. How many of you is working in, you know, some kind of Agile methodology? Ok, it’s interesting. Basically, Agile is about communication and communication is about customer also. So, it’s quite a big difference in relations. But basically how many of you deal with some kind of requirements, with operating them or something? Just raise your hand. So, quite a lot. So, you know, if you’re dealing with requirement, if you’re dealing with customer it’s also your responsibility to say that something is missing, that something is not ok. 
+So, why you should say "No". basically to support business decisions, to show that there are some constraints from our technical perspective that no analyze to deliver is for example as quickly as the business expects or from our perspective it’s a waste. So, waste of time, waste of money. And it’s not our money, it’s the business money and they usually don’t understand this because. Ah, we will see during my presentation why they like a business, don’t understand it. 
 
-Moving on how to actually say no and why it’s so hard with about psychology and especially about sociology, about why no is so scary. Basically for us as human beings disagreeing with someone is scary. I know that you are all brave, that’s why all are sitting in the back and want to have questions. Oh, there is, I see one volunteer. Ok, could you say why saying no is hard for you? If of course it is. The person who just raised the hand. Silence. Oh, ok. 
+![slide 12](images/kasia/kasia12.png)
+
+So, I want to express also that we all here are responsible for creating a software and I really strongly believe that you are really well talented people here and you want to create a masterpiece not just piece of software about something which is really excellent and users like to use it. So, returning to this SAP example. Just imagine that if you have a system and your users hate it and you know comparing it to this, you know, for example to the SAP and how do you feel it? You are not feeling well, so it’s sometimes really worthy to say that something, you know, is missing, something is not suiting. And if you just disagree then you can take action. If you are just keeping silent, you deliver it to the customer and he won’t be satisfied. 
+
+So, there are commoner possibilities to create great software because we all, you know, I think we all work in Agile, at least our companies think so. So, basically how many of us, of you, deal with customers on daily basis? Please raise your hand only. Ok. Quite a lot of you. So, maybe the second question. How many of you is working in, you know, some kind of Agile methodology? Ok, it’s interesting. Basically, Agile is about communication and communication is about customer also. So, it’s quite a big difference in relations. But basically how many of you deal with some kind of requirements, with operating them or something? Just raise your hand. So, quite a lot. So, you know, if you’re dealing with requirement, if you’re dealing with customer it’s also your responsibility to say that something is missing, that something is not ok. 
+
+![slide 13](images/kasia/kasia13.png)
+
+Moving on how to actually say no and why it’s so hard with about psychology and especially about sociology, about why "no" is so scary. 
+
+![slide 14](images/kasia/kasia14.png)
+
+Basically for us as human beings disagreeing with someone is scary. I know that you are all brave, that’s why all are sitting in the back and want to have questions. Oh, there is, I see one volunteer. Ok, could you say why saying no is hard for you? If of course it is. The person who just raised the hand. Silence. Oh, ok. 
 
 Man: Now it works. Saying no is hard for me because I’m a harmony addicted guy. I don’t like conflict at all. So if somebody asks me something that sounds reasonable I want to help and I want to make it happen. 
 
