@@ -1,5 +1,7 @@
 # Tammer Saleh: Teaching the Elephant to Dance
 
+![Sketchnote](images/originals/tammer.jpg)
+
 Tammer Saleh: All right, thanks Paul. And in the interest of your sanity I am going to try to keep this as short as I can. So, again, my name is Tammer Saleh and my presentation for you today is “Teaching an Elephant to Dance”. It’s about how the company I work for, Pivotal, used agility to transform a product we inherited called Cloud Foundry. So, hope this remote works. First of all, everybody, please stand up. All right. Is everybody up? Ok, go and sit back down again. I actually don’t have a question for you. I just felt left out. Everybody else was getting you guys to stand up. So, thank you very much!
 
 So, first we’re going to talk about what Cloud Foundry is. We are going to talk about some of the accomplishment that we’ve, well, accomplished. We are going to talk about Pivotal as a company and its history, the challenges we faced, the solutions we’ve put into place. And then we are going to talk a little about Aagility and why it is important. 
