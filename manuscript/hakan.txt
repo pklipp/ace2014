@@ -3,52 +3,364 @@
 ![Sketchnote](images/originals/hakan.jpg)
 
 
-Hakan: Good afternoon! Have you ever felt like this? Hm. Well, I’m trying to give you some tips of how we can get out of this trap. 
+![slide 01](images/hakan/hakan01.png)
 
-Who am I? My name is Hakan Forss. I’m a Lean and Agile coach at the Vega Group in Stockholm. I’ve been doing this Agile stuff for some time, Scrum and XP, but for the last few years I’ve more gravitating towards Kanban and Lean because I think it’s a wider concept that we can apply even outside the IT part of our value streams. I’m a passionate cyclist if I have the time to actually do it and I especially like going uphill. The thing that makes it going hard to go uphill is they are like barbeque. 
+Hakan: Good afternoon! Have you ever felt like this? ![slide 02](images/hakan/hakan02.png)
 
-But enough about me. I will tell you a story about PSP and the Kara company. These guys are testers that are testing a very complex software in a very complex hardware situation as well. And let’s see if you can maybe recognize yourself. Sp, what I’m going to talk about here, you will see that we will build up what you can potentially call a value stream up. The green breaks will be the value adding things, the things we are asking people to actually do. The yellow ones will be non value adding things but we need to do it to be able to do the green stuff. How it sets up the process. And then we have the red ones that are mostly waiting time. And in this example we have some blue ones as well. That would be when the supporting team comes back for some information or some requests to the testers. 
+Hm. Well, I’m trying to give you some tips of how we can get out of this trap. 
 
-So, we will start with the PSP company and they are setting up this very complex environment. They have to build up the environment. They have to load the software, get it ready to do the first test case. And they start running the tests and unfortunately they discover a problem. So the tester take the information they have, they write it in a Berg report, submit it in some electronical system and hope someone will pick it up and actually work on it. But when we have done that, we can’t just sit idle and do nothing. So what we do is to actually switch over to the next test case. That means that we need to tear down the environments and we need to load a new piece of software and when we are doing that the support team coming back and say “We need some trace, trace, traces from where you execute this so we can get more feeling of how it works, what the problem is.” And the tester says “Well, I’ll do that as soon as I am done with this case, test case that I am working on right now. So, please wait and as soon as I am done, I will do that for you.” He starts running the test case and unfortunately he discovers a bug in this version as well. So he files a report and sends off that to the support team. And then he switches back to the original test case, rebuilds the environment for the first version and when he’s doing that the support team, another support team comes back and say “Oh, we need some more logs from the system to see what really happens so we can analyze the problem” and the tester says “I will get right back at that as soon as I am done with the first test case. “ And he unrates some traces, sends that off to the support team and then he moves over to rebuilding the environment again for the second test case he runs. He gets the info back and while he is doing that, the support team comes back with a fix and he says “I’ll try that as soon as I am done with the second test case.” And he runs it and there’s still some problems and he’s sending it off to the support team. He switches back, rebuilds the environments, testing it out and while he’s doing that, the support team come back and says “Well, I have a fix. Can you please try it?” And the tester completes the test run and fortunately it actually works. So he’s done. He switches back and he completes the second one.
+![slide 03](images/hakan/hakan03.png)
 
-Do anyone here in the audience kind of recognize this situation? I get a few nods at least. Some of the companies that I worked with this is very, very common. So, let’s switch over to the Kara company. So, they would do the similar thing. They would do the set up. It’s the same. We have the same fault so they will find the same problem. But instead of actually writing it down in an electronic system, the tester immediately goes to the support team and says “We have a problem. We have a bug here. Can you, please come over and we can look at it together?” But the support team is unfortunately available and the Kara guy he then says ”Ok. Fine. I’ll ask my coach to come here and we will actually do some process improvements work while we are waiting for the support team.” Because then I don’t have to tear down the environment. So, as soon as the support teams come back and once I have some information, the environment is up and running, and they can together sit and find out and get the additional information. And instead of moving to the next test case waiting for the fix, they get started on even some more improvement work while they’re waiting on the fix and eventually the support team comes back with the fix and because the environment is up and running, we can immediately start running the tests again and we can complete them. And in this case the first test case is already done.  So, then we switch over to the second test case and we will repeat the same pattern again. 
+Who am I? My name is Hakan Forss. I’m a Lean and Agile coach at the Vega Group in Stockholm. 
 
-And as we can see we have completed the first test case much earlier in the second version compared to the first. And we even completed both of the test cases faster in the second version. And the ones actually performing better in terms of the whole system here is not the one that’s keeping itself busy all the time. It’s actually the Kara company that’s not focusing on getting the work to a completed state instead of just keeping busy. And as Deming said “A bad system will beat a good person any time.” And in this case people are working equally, they’re putting all their efforts into in but because of the design of how we do work, the PSP company is actually performing worse that the Kara company and the Kara company even has time to do process improvement. 
+![slide 04](images/hakan/hakan04.png)
 
-So what we really need to do is to shift focus. We need to shift our focus from focusing on the workers in the system and keeping them busy and instead focusing on the work. It should be the work that’s going, the value that we are creating for the customers that should be in our focus. So the camera should be on the work and follow the work and not the workers themselves.
+I’ve been doing this Agile stuff for some time, Scrum and XP, 
 
-There is a great book called “This is Lean” written by  Niklas Modig and Pär Åhlström from the Swedish School of Economics and they created this module where they talk about resource efficiency on one axel and flow efficiency on one axel. And the nirvana state of the process would be if we could have all our resources occupied all the time and the work that we are trying to, the value that we are trying to create for our customers should be occupied all the time with no waiting. And of course reaching nirvana is a little bit hard, right?
+![slide 05](images/hakan/hakan05.png)
 
-So, let’s look at this. So, we have the PSP company is really up in this quadrant. They are looking at keeping the testers in this case occupied all the time. The test environment is occupied all the time and the support teams is occupied all the time. But on the other side we have the Kara company. They’re focusing on the work. So, the work is occupied as much as possible, but not the workers. So, the Kara company is focusing on flow efficiency first compared to the PSP company which is focusing on resource efficiency first.
+but for the last few years I’ve more gravitating towards Kanban 
 
-And these are really two different business strategies and sometimes being resource efficient might be a good thing. If you are a still mill and having the actual oven, not to be utilized all the time it would be very expensive because it’s very expensive to heat up the oven. And if you need to cool it down you have to clean it out and all that; it’s very expensive. So, in terms of economics in this case, keeping the oven busy all the time is a good way of looking how to operate this process. And to do that, what we need to do is to have a large amount of work waiting in front of the worker, so they will never run out of work. And we also need to have a buffer between workers and stages in our process so the next step in the process will not run out of work. What will happen with this is that the work going through the system will actually take quite a bit of time.
+![slide 06](images/hakan/hakan06.png)
 
- But if you look at another business, the way you are running your business would be the emergency services. How do we want the emergency services to behave? We typically want them to be responsive more than just being occupied, right? We don’t want the emergency service to say “ Well, I’m busy taking care of something else so you have to wait.” And your house burns down. So, what we typically want to do is to have a more focus on being available when there’s some demand. So, setting up that system would be, we would try to avoid to have a queue of work in front of the worker. And we also try to avoid to have a queue of work between the workers. And Lean is really about the business philosopher where we try to focus on flow efficiency first before we try to move up towards high resource efficiency. Because this is typically much, much easier than moving from a higher resource efficiency towards high flow efficiency. So, how do we do this? We need to shift our focus. We need to plan for the less than 100% utilization of people and resources in our organization. 
+and Lean because I think it’s a wider concept that we can apply even outside the IT part of our value streams. 
 
-So, what we need to do is to plan the utilization of high priority work should be less than 100% and maybe a rule of thumb could 70% depending on the variation that you have in the system and this really acts as an insurance policy for shorter lead times. But it also creates options because if you are not scheduled to work on high most important things all the time, if something more important arrives, you can switch over and start working on that. So, it creates you options to do important stuff as you need it. And reducing the utilization also helps us in terms of handling variation in this work that we do, software development or other product development it’s quite hard to know exactly how long a piece of work will to take in one part of the process. And we don’t all the time know the arrival rate of work so what we can do by actually lowering the amount of things that we have planned in the system we can handle this variation and make things flow evenly through the system.
+![slide 07](images/hakan/hakan07.png)
 
-But the most important past as I see it is that we create space for improvements. If we don’t schedule up to 100% we create the space to do process improvement so we can grow the capacity in the system. And combining this you will have something like this as you lower the utilization rate, the plan utilization rate in the system you can handle the variation and you also have time to do innovation and improvement work.
+I’m a passionate cyclist if I have the time to actually do it and I especially like going uphill. 
 
-Another thing that we can do that comes from a flow base system and usually used in Kanban implementations is that we will shift focus of how we run our meetings. So, a typical Scrum meeting we will gather around the board and we will focus on who is working on what. What did you do yesterday? What should you do today? And maybe we discuss blockers. In the flow based way of running this kind of meetings you will typically do, you will first try to visualize the whole process, the steps that you have. And the second thing you will do is to focus on the blockers. What is stopping you from progressing? And you are focusing next on what you can finish today. So, a typical meeting in front of flow base board or Kanban would look something like this. That we will start from, typically, from the right and we will go upstream. So, we focus on the things that we want to have as close as possible to being at a complete state. 
+![slide 08](images/hakan/hakan08.png)
 
-The next thing we will focus on will be the blockers. What is actually stopping us from delivering what we have planned to do? So, what are the things that are creating delay in our system? Then if we have time we will focus on things: What can we complete today? How can we move this thing from analysis to development today? How can we set up the system so that will happen?
+The thing that makes it going hard to go uphill is they are like barbeque. But enough about me. 
+
+![slide 09](images/hakan/hakan09.png)
+
+I will tell you a story about Busy Bee and the Kata company. 
+
+![slide 10](images/hakan/hakan10.png)
+
+These guys are testers that are testing a very complex software in a very complex hardware situation as well. And let’s see if you can maybe recognize yourself. 
+
+![slide 11](images/hakan/hakan11.png)
+
+So, what I’m going to talk about here, you will see that we will build up what you can potentially call a value stream map. The green breaks will be the value adding things, the things we are asking people to actually do. The yellow ones will be non value adding things but we need to do it to be able to do the green stuff. How it sets up the process. And then we have the red ones that are mostly waiting time. And in this example we have some blue ones as well. That would be when the supporting team comes back for some information or some requests to the testers. 
+
+So, we will start with the Busy Bee company and they are setting up this very complex environment. 
+
+![slide 12](images/hakan/hakan12.png)
+
+They have to build up the environment. They have to load the software, get it ready to do the first test case. 
+
+![slide 13](images/hakan/hakan13.png)
+
+And they start running the tests and unfortunately they discover a problem. 
+
+![slide 14](images/hakan/hakan14.png)
+
+So the tester take the information they have, they write it in a Bug report, submit it in some electronical system and hope someone will pick it up and actually work on it. But when we have done that, we can’t just sit idle and do nothing. So what we do is to actually switch over to the next test case. 
+
+![slide 15](images/hakan/hakan15.png)
+
+That means that we need to tear down the environments and we need to load a new piece of software 
+
+![slide 16](images/hakan/hakan16.png)
+
+and when we are doing that the support team coming back and say “We need some trace, trace, traces from where you execute this so we can get more feeling of how it works, what the problem is.” 
+
+![slide 17](images/hakan/hakan17.png)
+
+And the tester says “Well, I’ll do that as soon as I am done with this case, test case that I am working on right now. So, please wait and as soon as I am done, I will do that for you.” 
+
+![slide 18](images/hakan/hakan18.png)
+
+He starts running the test case and unfortunately he discovers a bug in this version as well. 
+
+![slide 19](images/hakan/hakan19.png)
+
+So he files a report and sends off that to the support team. 
+
+![slide 20](images/hakan/hakan20.png)
+
+And then he switches back to the original test case, rebuilds the environment for the first version 
+
+![slide 21](images/hakan/hakan21.png)
+
+and when he’s doing that the support team, another support team comes back 
+
+![slide 22](images/hakan/hakan22.png)
+
+and say “Oh, we need some more logs from the system to see what really happens so we can analyze the problem” 
+
+![slide 23](images/hakan/hakan23.png)
+
+and the tester says “I will get right back at that as soon as I am done with the first test case. 
+
+![slide 24](images/hakan/hakan24.png)
+
+And he unrates some traces, 
+
+![slide 25](images/hakan/hakan25.png)
+
+sends that off to the support team 
+
+![slide 26](images/hakan/hakan26.png)
+
+and then he moves over to rebuilding the environment again for the second test case he runs. 
+
+![slide 27](images/hakan/hakan27.png)
+
+He gets the info back and while he is doing that, the support team comes back with a fix and he says “I’ll try that as soon as I am done with the second test case.” 
+
+![slide 28](images/hakan/hakan28.png)
+
+And he runs it 
+
+![slide 29](images/hakan/hakan29.png)
+
+and there’s still some problems 
+
+![slide 30](images/hakan/hakan30.png)
+
+and he’s sending it off to the support team. 
+
+![slide 31](images/hakan/hakan31.png)
+
+He switches back, rebuilds the environments, testing it out and while he’s doing that, the support team come back and says “Well, I have a fix. Can you please try it?” 
+
+![slide 32](images/hakan/hakan32.png)
+
+And the tester completes the test run and fortunately it actually works. 
+
+![slide 33](images/hakan/hakan33.png)
+
+So he’s done. 
+
+![slide 34](images/hakan/hakan34.png)
+
+He switches back and he completes the second one.
+
+![slide 35](images/hakan/hakan35.png)
+
+Do anyone here in the audience kind of recognize this situation? I get a few nods at least. Some of the companies that I worked with this is very, very common. So, let’s switch over to the Kata company. 
+
+![slide 36](images/hakan/hakan36.png)
+
+So, they would do the similar thing. They would do the set up. It’s the same. 
+
+![slide 37](images/hakan/hakan37.png)
+
+We have the same fault so they will find the same problem. But instead of actually writing it down in an electronic system, the tester immediately goes to the support team and says “We have a problem. We have a bug here. Can you, please come over and we can look at it together?” But the support team is unfortunately available 
+
+![slide 38](images/hakan/hakan38.png)
+
+and the Kata guy he then says "Ok. Fine. I’ll ask my coach to come here and we will actually do some process improvements work while we are waiting for the support team.” Because then I don’t have to tear down the environment. 
+
+![slide 39](images/hakan/hakan39.png)
+
+So, as soon as the support teams come back and once I have some information, the environment is up and running, and they can together sit and find out and get the additional information. 
+
+![slide 40](images/hakan/hakan40.png)
+
+And instead of moving to the next test case waiting for the fix, they get started on even some more improvement work while they’re waiting on the fix 
+
+![slide 41](images/hakan/hakan41.png)
+
+and eventually the support team comes back with the fix and because the environment is up and running, we can immediately start running the tests again and we can complete them. And in this case the first test case is already done. 
+
+![slide 42](images/hakan/hakan42.png)
+
+So, 
+
+![slide 43](images/hakan/hakan43.png)
+
+then we switch over to the second test case 
+
+![slide 44](images/hakan/hakan44.png)
+
+and we will repeat the same pattern again. 
+
+![slide 45](images/hakan/hakan45.png)
+
+![slide 46](images/hakan/hakan46.png)
+
+![slide 47](images/hakan/hakan47.png)
+
+And as we can see we have completed the first test case much earlier in the second version compared to the first. 
+
+![slide 48](images/hakan/hakan48.png)
+
+And we even completed both of the test cases faster in the second version. 
+
+![slide 49](images/hakan/hakan49.png)
+
+And the ones actually performing better in terms of the whole system here is not the one that’s keeping itself busy all the time. It’s actually the Kata company that’s not focusing on getting the work to a completed state instead of just keeping busy. 
+
+![slide 50](images/hakan/hakan50.png)
+
+And as Deming said “A bad system will beat a good person any time.” And in this case people are working equally, they’re putting all their efforts into it but because of the design of how we do work, the Busy Bee company is actually performing worse that the Kata company and the Kata company even has time to do process improvement. 
+
+![slide 51](images/hakan/hakan51.png)
+
+So what we really need to do is to shift focus. 
+
+![slide 52](images/hakan/hakan52.png)
+
+We need to shift our focus from focusing on the workers in the system and keeping them busy and instead focusing on the work. 
+
+![slide 53](images/hakan/hakan53.png)
+
+It should be the work that’s going, the value that we are creating for the customers that should be in our focus. So the camera should be on the work and follow the work and not the workers themselves.
+
+![slide 54](images/hakan/hakan54.png)
+
+There is a great book called “This is Lean” written by Niklas Modig and Pär Åhlström from the Swedish School of Economics and they created this module where they talk about resource efficiency on one axel and flow efficiency on one axel. And the nirvana state of the process would be if we could have all our resources occupied all the time and the work that we are trying to, the value that we are trying to create for our customers should be occupied all the time with no waiting. And of course reaching nirvana is a little bit hard, right?
+
+![slide 55](images/hakan/hakan55.png)
+
+So, let’s look at this. So, we have the Busy Bee company is really up in this quadrant. They are looking at keeping the testers in this case occupied all the time. The test environment is occupied all the time and the support teams is occupied all the time. But on the other side we have the Kata company. They’re focusing on the work. So, the work is occupied as much as possible, but not the workers. So, the Kata company is focusing on flow efficiency first compared to the Busy Bee company which is focusing on resource efficiency first.
+
+![slide 56](images/hakan/hakan56.png)
+
+And these are really two different business strategies and sometimes being resource efficient might be a good thing. If you are a steel mill and having the actual oven, not to be utilized all the time it would be very expensive because it’s very expensive to heat up the oven. And if you need to cool it down you have to clean it out and all that; it’s very expensive. So, in terms of economics in this case, keeping the oven busy all the time is a good way of looking how to operate this process. 
+
+![slide 57](images/hakan/hakan57.png)
+
+And to do that, what we need to do is to have a large amount of work waiting in front of the worker, so they will never run out of work. And we also need to have a buffer between workers and stages in our process so the next step in the process will not run out of work. What will happen with this is that the work going through the system will actually take quite a bit of time.
+
+![slide 58](images/hakan/hakan58.png)
+
+But if you look at another business, the way you are running your business would be the emergency services. How do we want the emergency services to behave? We typically want them to be responsive more than just being occupied, right? We don’t want the emergency service to say “ Well, I’m busy taking care of something else so you have to wait.” And your house burns down. 
+
+So, what we typically want to do is to have a more focus on being available when there’s some demand. 
+
+![slide 59](images/hakan/hakan59.png)
+
+So, setting up that system would be, we would try to avoid to have a queue of work in front of the worker. And we also try to avoid to have a queue of work between the workers. 
+
+![slide 60](images/hakan/hakan60.png)
+
+And Lean is really about the business philosopher where we try to focus on flow efficiency first before we try to move up towards high resource efficiency. Because this is typically much, much easier than moving from a higher resource efficiency towards high flow efficiency. 
+
+![slide 61](images/hakan/hakan61.png)
+
+So, how do we do this? We need to shift our focus. We need to plan for the less than 100% utilization of people and resources in our organization. 
+
+![slide 62](images/hakan/hakan62.png)
+
+So, what we need to do is to plan the utilization of high priority work should be less than 100% 
+
+![slide 63](images/hakan/hakan63.png)
+
+and maybe a rule of thumb could 70% depending on the variation that you have in the system and this really acts as an insurance policy for shorter lead times. 
+
+![slide 64](images/hakan/hakan64.png)
+
+But it also creates options because if you are not scheduled to work on high most important things all the time, if something more important arrives, you can switch over and start working on that. So, it creates you options to do important stuff as you need it. 
+
+![slide 65](images/hakan/hakan65.png)
+
+And reducing the utilization also helps us in terms of handling variation. In this work that we do, software development or other product development it’s quite hard to know exactly how long a piece of work will to take in one part of the process. And we don’t all the time know the arrival rate of work so what we can do by actually lowering the amount of things that we have planned in the system we can handle this variation and make things flow evenly through the system.
+
+![slide 66](images/hakan/hakan66.png)
+
+But the most important past as I see it is that we create space for improvements. If we don’t schedule up to 100% we create the space to do process improvement so we can grow the capacity in the system. 
+
+![slide 67](images/hakan/hakan67.png)
+
+And combining this you will have something like this as you lower the utilization rate, the plan utilization rate in the system you can handle the variation and you also have time to do innovation and improvement work.
+
+![slide 68](images/hakan/hakan68.png)
+
+Another thing that we can do that comes from a flow base system and usually used in Kanban implementations is that we will shift focus of how we run our meetings. 
+
+![slide 69](images/hakan/hakan69.png)
+
+So, a typical Scrum meeting we will gather around the board and we will focus on who is working on what. What did you do yesterday? What should you do today? And maybe we discuss blockers. 
+
+![slide 70](images/hakan/hakan70.png)
+
+In the flow based way of running this kind of meetings you will typically do, you will first try to visualize the whole process, the steps that you have. And the second thing you will do is to focus on the blockers. What is stopping you from progressing? And you are focusing next on what you can finish today. 
+
+![slide 71](images/hakan/hakan71.png)
+
+So, a typical meeting in front of flow base board or Kanban would look something like this. That we will start from, typically, from the right and we will go upstream. So, we focus on the things that we want to have as close as possible to being at a complete state. 
+
+![slide 72](images/hakan/hakan72.png)
+
+The next thing we will focus on will be the blockers. What is actually stopping us from delivering what we have planned to do? So, what are the things that are creating delay in our system? 
+
+![slide 73](images/hakan/hakan73.png)
+
+Then if we have time we will focus on things: What can we complete today? How can we move this thing from analysis to development today? How can we set up the system so that will happen?
 
 And last, and typically if you have the time we might start to reason about the things we want to pull in next. What are we shifting focus from looking at tasks and the workers, more towards how we can complete the work and the value that we are creating for the customers.
 
-And connected to this is to shift your focus around blockers and impediments. So if you are tracking your impediments on your boards what would you do with the blocker stickers or indication on impediments? How do you do that today? When is result, what do you do with the stickers? You throw it away? It’s all done? If you do that you are missing something. If instead we take those blockers and we put them on a board of what the blockers and the impediments has been and you can build a diagram like this. You have a great opportunity to find out what are the delays cost in your system so you can start addressing them and then focusing on the things that are causing the most delay. And this is a simple count of the blockers but a team that I worked with, they actually positioning the sticky notes here based on time. So instead of just saying they count, they are actually the distance between the notes would be the time occurred by, occurred by the blockage. And that way we can easily see what is causing the most delay in the system. So, you should really see the blockers and impediments as the gold and the gems in your system because they are the opportunities to improve the flow of your system. 
+And connected to this is to shift your focus around blockers and impediments. So if you are tracking your impediments on your boards what would you do with the blocker stickers or indication on impediments? How do you do that today? When is result, what do you do with the stickers? You throw it away? It’s all done? If you do that you are missing something. 
 
-So, the last thing I will talk about is the work in process. I probably need to take some water. Are we back? Yes. So the next thing I will talk is the work in process, the WIP. And I will talk about the thing that I think is the hidden side of WIP limits. So WIP limits will help you limiting WIP in your system, will typically help you increase flow in the system. I think the even more important part, the ones that is actually below the surface, that we don’t talk about that much is how we can improve the system. 
+![slide 74](images/hakan/hakan74.png)
 
-So, imagine yourself going to a canal. Do you come to the canal? And we are looking at the stream of water and it’s streaming quite fine. We don’t see any big disturbances in the flow. But what will happen if you start to lower the water level? Maybe you see some turbulence and you actually see a big rock. And if we lower the water level even more, we will see that the turbulence and the rocks are actually impeding flow quite a bit. So, by lowering the water level in the system, by lowering the amount of things that you have ongoing will help you see the things that are creating the blockage in the flow. So by lowering the WIP limit you typically will get more pink stickers, blockers or impediments that you can start to address. So, if you are drying up in terms of pink stickers in your process when you do improvements, try to lower the WIP limit even more because then you will see even more problems. So, lowering the water level in the system uncovers process improvement opportunities. 
+If instead we take those blockers and we put them on a board of what the blockers and the impediments has been and you can build a diagram like this. You have a great opportunity to find out what are the delays cost in your system so you can start addressing them and then focusing on the things that are causing the most delay. And this is a simple count of the blockers but a team that I worked with, they actually positioning the sticky notes here based on time. So instead of just saying they count, they are actually the distance between the notes would be the time occurred by, occurred by the blockage. And that way we can easily see what is causing the most delay in the system. 
 
-So, how do we set WIP limits then? Well, you can see this as a way of organizational friction. How much friction do we want to put on the organization? So, if want to have low friction on the current system, well, then maybe you said “ A WIP limit on the average WIP that you have in the system today at 2.” Because you just said it there, that means that it’s very, very rare that you will hit the WIP limit so you can still operate your process just like you do today and it’s very rare that you will hit the WIP limit.
+![slide 75](images/hakan/hakan75.png)
 
-If you want to create high friction in the system, you could typically set the two to have the amount of work people, workers that you have in the system because then it forces you to have pairing and things like that, that maybe you are not doing today. But that would create more friction on the organization. But this is only the first step and where you cannot get started is based on how much capital do you have to implement this in your organization.
+So, you should really see the blockers and impediments as the gold and the gems in your system because they are the opportunities to improve the flow of your system. 
 
-But the next step is really the important part, is on a regular basis we should adjust our WIP limits to create more learning. So Don Reinertsen talks about this. He says you should on a regular basis, maybe monthly by monthly you will adjust your WIP limit by 20 to 30%. And that can be both up and down to create some new learning, but typically you will start to move it downwards. And when you do these new problems, new process problems will pop up and they will be evident for you and if nothing occurs, nothing pops up, there’s nothing to resolve. But if you find problems, you start resolving them. And when the root cause of these problems are removed the process should stabilize and you’re able to operate at that new level and then you just go back and repeat. And this way you can really start to really learn about your system and how you can improve the flow of work going through the system. What are the things that are stopping you from having a good and even flow through the system?
+![slide 76](images/hakan/hakan76.png)
+
+So the next thing I will talk is the work in process, the WIP. And I will talk about the thing that I think is the hidden side of WIP limits. 
+
+![slide 77](images/hakan/hakan77.png)
+
+So WIP limits will help you limiting WIP in your system, will typically help you increase flow in the system. I think the even more important part, the ones that is actually below the surface, that we don’t talk about that much is how we can improve the system. 
+
+![slide 78](images/hakan/hakan78.png)
+
+So, imagine yourself going to a canal. Do you come to the canal? 
+
+![slide 79](images/hakan/hakan79.png)
+
+And we are looking at the stream of water and it’s streaming quite fine. We don’t see any big disturbances in the flow.
+
+![slide 80](images/hakan/hakan80.png)
+
+But what will happen if you start to lower the water level? 
+
+![slide 81](images/hakan/hakan81.png)
+
+Maybe you see some turbulence 
+
+![slide 82](images/hakan/hakan82.png)
+
+and you actually see a big rock. 
+
+![slide 83](images/hakan/hakan83.png)
+
+And if we lower the water level even more, we will see that the turbulence and the rocks are actually impeding flow quite a bit. 
+
+So, by lowering the water level in the system, by lowering the amount of things that you have ongoing will help you see the things that are creating the blockage in the flow. So by lowering the WIP limit you typically will get more pink stickers, blockers or impediments that you can start to address. So, if you are drying up in terms of pink stickers in your process when you do improvements, try to lower the WIP limit even more because then you will see even more problems. 
+
+![slide 84](images/hakan/hakan84.png)
+
+So, lowering the water level in the system uncovers process improvement opportunities. 
+
+![slide 85](images/hakan/hakan85.png)
+
+So, how do we set WIP limits then? Well, you can see this as a way of organizational friction. How much friction do we want to put on the organization? So, if want to have low friction on the current system, well, then maybe you said “A WIP limit on the average WIP that you have in the system today at 2.” Because you just said it there, that means that it’s very, very rare that you will hit the WIP limit so you can still operate your process just like you do today and it’s very rare that you will hit the WIP limit.
+
+If you want to create high friction in the system, you could typically set the two to haif the amount of work people, workers that you have in the system because then it forces you to have pairing and things like that, that maybe you are not doing today. But that would create more friction on the organization. But this is only the first step and where you cannot get started is based on how much capital do you have to implement this in your organization.
+
+![slide 86](images/hakan/hakan86.png)
+
+But the next step is really the important part, is on a regular basis we should adjust our WIP limits to create more learning. So Don Reinertsen talks about this. He says you should on a regular basis, maybe monthly by monthly you will adjust your WIP limit by 20 to 30%. And that can be both up and down to create some new learning, but typically you will start to move it downwards. And when you do this new problems, new process problems will pop up and they will be evident for you and if nothing occurs, nothing pops up, there’s nothing to resolve. But if you find problems, you start resolving them. And when the root cause of these problems are removed the process should stabilize and you’re able to operate at that new level and then you just go back and repeat. And this way you can really start to really learn about your system and how you can improve the flow of work going through the system. What are the things that are stopping you from having a good and even flow through the system?
+
+![slide 87](images/hakan/hakan87.png)
 
 So, flow thinking for me is thinking in terms of flow efficiency first before we start to raise their resource efficiency so we need to focus on the work, not the workers and we don’t plan far 100% utilization. It should be less. And we should really think about blockers and impediments as great opportunities to find out what is the problems cost in the system so we can fix them. And limiting WIP is really about learning. It will help you manage the flow, but it’s the learning side that’s even more important and many of the tools in the Lean community might look to be something above the water line but it’s something else if you really look below the water line So, we have a Kanban system with limited WIP but we also have other things like even out of flow in the system that is really about trying to understand how the system works.
 
+![slide 88](images/hakan/hakan88.png)
+
 So, the question to you. How do you want to operate your processes? Do you want to operate in the high resource efficiency side first or do you want to operate in the high flow efficiency side first?
 
-And with that..Thank you soo much.
+And with that..Thank you so much.
+
+![slide 89](images/hakan/hakan89.png)
